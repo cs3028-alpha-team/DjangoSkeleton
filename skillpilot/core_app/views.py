@@ -110,8 +110,8 @@ def matching_view(request):
             for index, row in preference_matrix.iterrows():
                 writer.writerow([index] + row.tolist())
         
-        # Respond with a success message
+       
         return HttpResponse('Matching process completed. Preference matrix saved to CSV file.')
     else:
-        # Respond with an error message if the request method is not POST
+        
         return HttpResponse('Error: POST request expected.')
