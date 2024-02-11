@@ -1,6 +1,6 @@
 name: Django Github Action
 
-on: [ push ]
+on: [ push, pull_request ]
 
 jobs:
 
@@ -33,3 +33,20 @@ jobs:
         run: |
           python manage.py collectstatic
           python manage.py test
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy application to Heroku
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: deploy
+        uses: akhileshns/heroku-deploy@v3.12.12 # action from marketplace to deploy to heroku
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+          heroku_email: "m.diprofio.21@abdn.ac.uk"
+          branch: "main"
