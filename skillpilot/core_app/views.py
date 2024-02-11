@@ -1,10 +1,15 @@
 
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
+from .matching import *
+import subprocess
 import csv
 import os
+
+
+
 
 # View for hello.html
 def homepage(request):
@@ -17,6 +22,7 @@ def internship(request):
 # View for SForm.html
 def student(request):
     return render(request, 'student.html')
+
 
 def clean_data(request):
     if request.method == 'POST':
@@ -81,3 +87,31 @@ def submit_internship(request):
     else:
         # TODO : change this to a 404 template!
         return render(request, 'your_template.html')
+
+
+from django.http import HttpResponse
+import csv
+import os
+
+def matching_view(request):
+    if request.method == 'POST':
+        # Call the compute_preference_matrix function
+        preference_matrix = compute_preference_matrix(candidates, jobs)
+        
+        # Save preference_matrix to a CSV file
+        csv_file_path = 'data/preference_matrix.csv'
+        file_exists = os.path.exists(csv_file_path)
+        with open(csv_file_path, 'a', newline='') as csvfile:
+            writer = csv.writer(csvfile)
+            
+            if not file_exists:
+                writer.writerow(['Candidate IDs'] + [str(job_id) for job_id in preference_matrix.columns])
+            
+            for index, row in preference_matrix.iterrows():
+                writer.writerow([index] + row.tolist())
+        
+       
+        return HttpResponse('Matching process completed. Preference matrix saved to CSV file.')
+    else:
+        
+        return HttpResponse('Error: POST request expected.')

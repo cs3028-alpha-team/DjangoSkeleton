@@ -9,5 +9,6 @@ urlpatterns = [
     path('submit-student/', views.submit_student, name='submit-student'),
     path('submit-internship/', views.submit_internship, name='submit-internship'),
     path('clean-data/', views.clean_data, name='clean-data'),
+    path('matching/', views.matching_view, name='matching'),
 ]
 

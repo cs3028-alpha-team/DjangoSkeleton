@@ -16,7 +16,7 @@
     </header>
     <nav class="main-nav">
       <div class="topList">
-        <h2>Welcome to SkillPilot</h2>
+        <h2>Welcome to SkillShare</h2>
         <div class="ListCon">
           <li>Browse current internships</li>
           <li>Apply for current internship</li>
@@ -31,6 +31,12 @@
             {% csrf_token %}
             <button type="submit">Process Data</button>
         </form>
+
+        <form action="{% url 'matching' %}" method="post">
+          {% csrf_token %}
+          <button type="submit">Match</button>
+      </form>
+      
         
         </div>
       </ul>
