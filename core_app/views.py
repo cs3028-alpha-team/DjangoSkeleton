@@ -8,9 +8,6 @@ import subprocess
 import csv
 import os
 
-
-
-
 # View for hello.html
 def homepage(request):
     return render(request, 'homepage.html')
@@ -22,7 +19,6 @@ def internship(request):
 # View for SForm.html
 def student(request):
     return render(request, 'student.html')
-
 
 def clean_data(request):
     if request.method == 'POST':
@@ -37,8 +33,6 @@ def clean_data(request):
     else:
         # Handle GET requests (e.g., render a template with the button)
         return render(request, 'process_data.html')
-
-
 
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
@@ -64,7 +58,6 @@ def submit_student(request):
     else:
         return render(request, 'your_template.html')
 
-
 #Function to get user input and populate the jobs csv in the data folder
 def submit_internship(request):
     if request.method == 'POST':
@@ -87,11 +80,6 @@ def submit_internship(request):
     else:
         # TODO : change this to a 404 template!
         return render(request, 'your_template.html')
-
-
-from django.http import HttpResponse
-import csv
-import os
 
 def matching_view(request):
     if request.method == 'POST':

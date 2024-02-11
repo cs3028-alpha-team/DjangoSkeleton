@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse, resolve
-from core_app.views import homepage, internship, student
+from .views import homepage, internship, student
 
 class HttpResponseTest(TestCase):
   def test_homepage_status_code(self):
