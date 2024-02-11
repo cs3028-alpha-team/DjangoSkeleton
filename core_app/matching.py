@@ -1,8 +1,6 @@
 import sys
 import random
 import pandas as pd
-from tqdm import trange
-from time import sleep
 
 # Read CSV files (ADDED)
 candidates = pd.read_csv('data/processed_candidates.csv')
@@ -15,7 +13,7 @@ def compute_preference_matrix(candidates, jobs):
     candidate_indices = [i for i in range(len(candidates))]
 
     # create the compatibility dataframe/matrix
-    compatibility = pd.DataFrame(0, index=candidate_indices, columns=jobs_indices)
+    compatibility = pd.DataFrame(0.0, index=candidate_indices, columns=jobs_indices)
     compatibility = compatibility.rename_axis(index='Candidate IDs', columns='Job IDs')
 
     # populate the compatibility matrix
@@ -27,10 +25,9 @@ def compute_preference_matrix(candidates, jobs):
 
 # Populate the compatibility matrix using the jobs and candidates dataframe
 def populate_compatibility_matrix(matrix, candidates, jobs):
-    for i in trange(len(candidates), file=sys.stdout, colour='GREEN'):
+    for i in range(len(candidates)):
         for j in range(len(jobs)):
             matrix.loc[(i, j)] = compute_compatibility(candidates.loc[i], jobs.loc[j])
-        sleep(0)
 
 # Return a score to classify the compatibility of a candidate to a job
 def compute_compatibility(candidate, job):
