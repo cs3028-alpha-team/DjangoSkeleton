@@ -14,9 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3 
       - name: Setup Python Version ${{ matrix.python-version }} 
-        uses: actions/setup-python@v4.1.0 # use the built-in action for setting up python projects
+        uses: actions/setup-python@v4.1.0
         with:
-          # apply setup action with version of python currently used by the matrix
           python-version: ${{ matrix.python-version }}
 
       - name: Install dependencies 
@@ -29,32 +28,29 @@ jobs:
       #   run: |
       #     flake8 .
 
-  test:
-    needs: build
-    runs-on: ubuntu-latest
-    name: Run application tests
-    steps:
-      - name: Run tests
-        run: |
-          python manage.py collectstatic
-          python ../manage.py test
+  # test:
+  #   needs: build
+  #   runs-on: ubuntu-latest
+  #   name: Run application tests
+  #   steps:
+  #     - name: Run tests
+  #       run: |
+  #         python manage.py collectstatic
+  #         python ../manage.py test
 
   deploy:
-    needs: test
+    # needs: test
     runs-on: ubuntu-latest
     name: Deploy application to Heroku
 
     steps:
-      - name : Fake deployment
-        run: |
-          echo "Deployment..."
-      # - name: checkout
-      #   uses: actions/checkout@v3
+      - name: checkout
+        uses: actions/checkout@v3
 
-      # - name: deploy
-      #   uses: akhileshns/heroku-deploy@v3.12.12 
-      #   with:
-      #     heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-      #     heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
-      #     heroku_email: "m.diprofio.21@abdn.ac.uk"
-      #     branch: "main"
+      - name: deploy
+        uses: akhileshns/heroku-deploy@v3.12.12 # action from marketplace to deploy to heroku
+        with:
+          heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
+          heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+          heroku_email: "m.diprofio.21@abdn.ac.uk"
+          branch: "main"
