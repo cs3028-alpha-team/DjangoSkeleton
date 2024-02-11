@@ -1,13 +1,7 @@
-
-from django.urls import path
-from . import views
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-    path('', views.homepage, name='homepage'),
-    path('internship', views.internship, name='internship'),
-    path('student', views.student, name='student'),
-    path('submit-student/', views.submit_student, name='submit-student'),
-    path('submit-internship/', views.submit_internship, name='submit-internship'),
-    path('clean-data/', views.clean_data, name='clean-data'),
+    path('admin/', admin.site.urls),
+    path('', include('core_app.urls')),
 ]
-
