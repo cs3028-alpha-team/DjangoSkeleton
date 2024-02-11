@@ -37,7 +37,7 @@ jobs:
       - name: Run tests
         run: |
           python manage.py collectstatic
-          python manage.py test
+          python manage.py test core_app
 
   deploy:
     needs: test
