@@ -30,7 +30,3 @@ Instuctions below will instruct how i set up my django project. Before making yo
    - hello.html will be the main page, IForm.html will be the internship          form for employers and SForm will be for the students.
 6. Static
    -
-
-
-
-team 
