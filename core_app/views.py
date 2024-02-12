@@ -21,18 +21,17 @@ def student(request):
     return render(request, 'student.html')
 
 def clean_data(request):
-    if request.method == 'POST':
-        # Call the data processing function
-        jobs, candidates = process_data()
 
-        # Save the processed dataframes to CSV files
-        jobs.to_csv('data/processed_jobs.csv', index=False)
-        candidates.to_csv('data/processed_candidates.csv', index=False)
+    # NOTE : Mattia - modified the condition of if request.method == post ... so process data works universally for now
 
-        return HttpResponse('Data processed successfully')
-    else:
-        # Handle GET requests (e.g., render a template with the button)
-        return render(request, 'process_data.html')
+    # Call the data processing function
+    jobs, candidates = process_data()
+
+    # Save the processed dataframes to CSV files
+    jobs.to_csv('data/processed_jobs.csv', index=False)
+    candidates.to_csv('data/processed_candidates.csv', index=False)
+
+    return HttpResponse('Data processed successfully')
 
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
@@ -103,3 +102,6 @@ def matching_view(request):
     else:
         
         return HttpResponse('Error: POST request expected.')
+
+def admin_page(request):
+    return render(request, 'sysadmin.html')

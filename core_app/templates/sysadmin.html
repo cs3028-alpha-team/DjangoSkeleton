@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
+    <title>University of Aberdeen Placement</title>
+  </head>
+  <body class="page3">
+    <header>
+      <h1>Control panel</h1>
+      <img
+        class="img2"
+        src="{% static 'images/unilogo.png' %}"
+        alt="University of Aberdeen logo "
+      />
+    </header>
+    <nav>
+      <ul>
+        <div class="Content">
+          <div class="Aheader">
+            <h2>Control panel</h2>
+          </div>
+          {% csrf_token %}
+          <li><a href="{% url 'clean-data' %}">Process data</a></li>
+          <form action="{% url 'matching' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Match</button>
+          </form>
+
+          <div class="Ahome">
+            <li><a href="{% url 'homepage' %}">Homepage</a></li>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </body>
+</html>

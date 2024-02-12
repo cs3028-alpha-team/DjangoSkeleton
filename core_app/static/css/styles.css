@@ -82,7 +82,7 @@ header img.smallimg{
     top: 20%;
     left: 55%;
     width: 500px;
-    height: 270px;
+    height: 300px;
     border-radius: 5px;
     padding: 10px 30px 20px 5px;
     box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
@@ -107,7 +107,40 @@ nav li a{
    
 }
 
+.admin {
+    background-color: white;
+    width: 10px;
+    color: black;
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 10px 30px 20px 5px;
+    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
+    max-height: 680px;
+}
 
+div.admin li {
+    border-radius: 2px;
+    background-color: rgb(17, 17, 80);
+    margin: 5px;
+    padding: 7px;
+    list-style: none;
+    
+}
+
+div.admin li a{
+    text-decoration: none;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+}
+
+div.admin h2{
+    text-align: center;
+}
 
 /*end*/
 
@@ -121,18 +154,22 @@ body.IFORM {
 }
 div.top{
     text-align: center;
-    padding: 10px;
+    padding: 1px;
+    margin-bottom: -20px;
+    
 }
 
 header.form1H{
     font-size: 25px;
     font-weight: bold;
-    padding: 10px;
+    margin-top: 15px;
+    text-align: center;
 
 }
 
 .submit{
     text-align: center;
+    margin-bottom: -40px;
 }
 
 p1{
@@ -155,12 +192,6 @@ div.margT{
 
 #degrees option{
     background-color: rgba(255,255,255,0.5);
-}
-
-#submit{
-    width: 200px;
-    height: 20px;
-    font-size: 15px;
 }
 
 .form1{
@@ -213,14 +244,13 @@ div.form2 header{
 
 .submit2{
     text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-bottom: -50px;
+    font-size: 15px;
     
 }
 
-#submit2{
-    width: 200px;
-    height: 20px;
-    font-size: 15px;
-}
 .fields2{
     max-height: 600px;
 }
@@ -235,12 +265,65 @@ div.form2 header{
 
 }
 
+/*admin page*/
+.page3{
+    background-image: url("../images/UniPostCover--University-of-Aberdeen.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page3 h1{
+    
+    background-color:white;
+    padding: 15px;
+    top: -10px;
+    width: 100%;
+    position:fixed;
+    color: white;
+        
+    
+}
+.page3 nav{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 500px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 10px 30px 20px 5px;
+    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
+    max-height: 680px;
+}
+.Aheader h2{
+    text-align: center;
+}
+
+.Aheader li { 
+    text-decoration: none;
+}
+
+
+header img.img2{
+    position: absolute;
+    top: 25%;
+    width: 270px;
+    left: 10%;
+}
+
+/*end*/
+
+
 /*pseudo elements  main page*/
 nav ul li a:hover {
 
     text-decoration: underline;
 }
 
+.admin li a:hover{
+    text-decoration: underline;
+}
 /*pseudo elements IFORM */
 textarea::-webkit-scrollbar{
     width: 0px;
