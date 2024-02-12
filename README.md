@@ -31,6 +31,4 @@ Instuctions below will instruct how i set up my django project. Before making yo
 6. Static
    -
 
-
-
-team 
+WORK DONE ON THE TEST BRANCH 
