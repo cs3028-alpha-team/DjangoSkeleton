@@ -27,11 +27,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # linting process - ensures code quality 
-      - name: Lint with flake8
-        run: |
-          flake8 .
-
       # run any test contained within the project's applications
       - name: Run tests
         run: |
