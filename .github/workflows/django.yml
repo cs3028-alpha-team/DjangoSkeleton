@@ -3,7 +3,6 @@ name: Django Github Action
 # specify what action triggers the workflow
 on: [ push, pull_request, workflow_dispatch ]
 
-
 jobs:
 
   # pull repository code, install dependencies and package the application

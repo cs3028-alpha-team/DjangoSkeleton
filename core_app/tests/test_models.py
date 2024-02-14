@@ -1,22 +1,10 @@
 from django.test import TestCase
 from ..models import Student, Internship
 
-# #internship model
-# class Internships(models.Model):
-#     intershipID = models.BigAutoField(primary_key=True)
-#     organisation = models.CharField(max_length=50)
-#     job_role = models.CharField(max_length=50)
-#     email_address = models.EmailField(max_length=200)
-#     #work_mode = 
-#     #field = 
-#     num_candidates = models.IntegerField()
-#     #work_pattern = 
-# # view as organisation and job role and not as an object
-#     def __str__(self):
-#         return self.organisation + self.job_role
-
+# test the methods on the Student model
 class TestStudentModel(TestCase):
 
+    # setup method recognised by django to instantiate the model to be tested
     def setUp(self):
         self.student1 = Student.objects.create(
             studentID=1234, 
@@ -25,12 +13,14 @@ class TestStudentModel(TestCase):
             experience="nursing"
         )
 
+    # test the __str__ method on the student model
     def test_stringify_method(self):
         self.assertEquals("JohnDeez", str(self.student1))
 
-
+# test the methods on the Internship model
 class TestInternshipModel(TestCase):
 
+    # setup method recognised by django to instantiate the model to be tested
     def setUp(self):
         self.internship1 = Internship.objects.create(
             intershipID = 939,
@@ -40,5 +30,6 @@ class TestInternshipModel(TestCase):
             num_candidates = 3,
         )
 
+    # test the __str__ method on the internship model
     def test_stringify_method(self):
         self.assertEquals("GSKNurse Trainee", str(self.internship1))
