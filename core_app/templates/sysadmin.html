@@ -27,6 +27,11 @@
             <button type="submit">Match</button>
           </form>
 
+          <form action="{% url 'run_matching_algorithm' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Run Matching Algorithm</button>
+          </form>
+
           <div class="Ahome">
             <li><a href="{% url 'homepage' %}">Homepage</a></li>
           </div>

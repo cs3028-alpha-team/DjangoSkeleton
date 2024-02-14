@@ -1,9 +1,9 @@
-
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
 from .matching import *
+from .algorithm import run_gale_shapley
 import subprocess
 import csv
 import os
@@ -20,18 +20,10 @@ def internship(request):
 def student(request):
     return render(request, 'student.html')
 
-def clean_data(request):
+def admin_page(request):
+    return render(request, 'sysadmin.html')
 
-    # NOTE : Mattia - modified the condition of if request.method == post ... so process data works universally for now
 
-    # Call the data processing function
-    jobs, candidates = process_data()
-
-    # Save the processed dataframes to CSV files
-    jobs.to_csv('data/processed_jobs.csv', index=False)
-    candidates.to_csv('data/processed_candidates.csv', index=False)
-
-    return HttpResponse('Data processed successfully')
 
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
@@ -79,29 +71,65 @@ def submit_internship(request):
     else:
         # TODO : change this to a 404 template!
         return render(request, 'your_template.html')
+        
+def clean_data(request):
+
+    # NOTE : Mattia - modified the condition of if request.method == post ... so process data works universally for now
+
+    # Call the data processing function
+    jobs, candidates = process_data()
+
+    # Save the processed dataframes to CSV files
+    jobs.to_csv('data/processed_jobs.csv', index=False)
+    candidates.to_csv('data/processed_candidates.csv', index=False)
+
+    return HttpResponse('Data processed successfully')
+
 
 def matching_view(request):
     if request.method == 'POST':
-        # Call the compute_preference_matrix function
-        preference_matrix = compute_preference_matrix(candidates, jobs)
+        # Call the compute_compatibility_matrix function
+        compatibility_matrix = compute_compatibility_matrix(candidates, jobs)
         
-        # Save preference_matrix to a CSV file
-        csv_file_path = 'data/preference_matrix.csv'
+        # Save compatibility_matrix to a CSV file
+        csv_file_path = 'data/compatibility_matrix.csv'
         file_exists = os.path.exists(csv_file_path)
         with open(csv_file_path, 'a', newline='') as csvfile:
             writer = csv.writer(csvfile)
             
             if not file_exists:
-                writer.writerow(['Candidate IDs'] + [str(job_id) for job_id in preference_matrix.columns])
+                writer.writerow(['Candidate IDs'] + [str(job_id) for job_id in compatibility_matrix.columns])
             
-            for index, row in preference_matrix.iterrows():
+            for index, row in compatibility_matrix.iterrows():
                 writer.writerow([index] + row.tolist())
         
-       
-        return HttpResponse('Matching process completed. Preference matrix saved to CSV file.')
+        return HttpResponse('Matching process completed. Compatibility matrix saved to CSV file.')
     else:
-        
         return HttpResponse('Error: POST request expected.')
 
-def admin_page(request):
-    return render(request, 'sysadmin.html')
+
+
+
+def run_matching_algorithm(request):
+    candidates = pd.read_csv('data/processed_candidates.csv')
+    jobs = pd.read_csv('data/processed_jobs.csv')
+    number_of_candidates = len(candidates)
+    number_of_jobs = len(jobs)
+
+    # Activate algorithm
+    print("Calling Gale-Shapley algorithm...")
+    offers = run_gale_shapley(candidates, jobs, number_of_candidates, number_of_jobs)
+
+    # Save file path
+    #output_file = 'data/matching_results.csv'
+    
+    print(" ================ offers ========================")
+    format_pairings(offers, candidates, jobs)
+
+    # Save file 
+    output_file = 'data/offers.csv'
+    save_results_to_csv(offers, output_file)
+    
+    print("Results saved to CSV file.")
+    
+    return HttpResponse('Matching algorithm executed successfully. Results saved to CSV file.')
