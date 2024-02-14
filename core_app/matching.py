@@ -3,11 +3,17 @@ import random
 import pandas as pd
 
 # Read CSV files (ADDED)
-candidates = pd.read_csv('data/processed_candidates.csv')
-jobs = pd.read_csv('data/processed_jobs.csv')
+candidates = pd.read_csv('data/candidates.csv')
+jobs = pd.read_csv('data/jobs.csv')
 
-# Compute the preference matrix for the given dataframes
-def compute_preference_matrix(candidates, jobs):
+# Populate the compatibility matrix using the jobs and candidates dataframe
+def populate_compatibility_matrix(matrix, candidates, jobs):
+    for i in range(len(candidates)):
+        for j in range(len(jobs)):
+            matrix.loc[(i, j)] = compute_compatibility(candidates.loc[i], jobs.loc[j])
+            
+# Compute the compatibility matrix for the given dataframes
+def compute_compatibility_matrix(candidates, jobs): #NOTE need to change to compatibility_matrix
     # use jobs and candidates indices instead of fullname and company as it guarantees uniqueness
     jobs_indices = [i for i in range(len(jobs))]
     candidate_indices = [i for i in range(len(candidates))]
@@ -22,12 +28,6 @@ def compute_preference_matrix(candidates, jobs):
     print("Population operation completed.")
 
     return compatibility
-
-# Populate the compatibility matrix using the jobs and candidates dataframe
-def populate_compatibility_matrix(matrix, candidates, jobs):
-    for i in range(len(candidates)):
-        for j in range(len(jobs)):
-            matrix.loc[(i, j)] = compute_compatibility(candidates.loc[i], jobs.loc[j])
 
 # Return a score to classify the compatibility of a candidate to a job
 def compute_compatibility(candidate, job):
@@ -56,5 +56,16 @@ def compute_compatibility(candidate, job):
 
     return round(compatibility_score, 2)
 
+# display all the offers made in a user-readable format
+def format_pairings(offers, candidates, jobs):
+    for i in range(len(offers.keys()) - 1):
+        candidate_id = i
+        candidate_name = candidates.loc[candidate_id, "Fullname"]
+        job_title = "N/A" if offers[candidate_id][0] == None else jobs.loc[offers[candidate_id][0], "Title"]
+        print(f'{candidate_name} -> {job_title}')
     
-    
+
+def save_results_to_csv(data, path):
+   
+    df = pd.DataFrame(data)
+    df.to_csv(path, index=False)
