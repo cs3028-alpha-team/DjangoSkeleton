@@ -9,6 +9,7 @@ urlpatterns = [
     path('submit-internship', views.submit_internship, name='submit-internship'),
     path('clean-data', views.clean_data, name='clean-data'),
     path('matching', views.matching_view, name='matching'),
-    path('sysadmin', views.admin_page, name='sysadmin')
+    path('sysadmin', views.admin_page, name='sysadmin'),
+    path('run_matching_algorithm', views.run_matching_algorithm, name='run_matching_algorithm'),
 ]
 

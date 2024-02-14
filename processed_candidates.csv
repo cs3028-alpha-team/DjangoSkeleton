@@ -1,6 +1,4 @@
 Fullname,Course,Score,Experience,StudyProgram,CleanedStudyProgram
-Ashley Harris,Doctor of Pharmacy (Pharm.D.),96,nutrition,N/A-FT,Campus-FT
-Thomas Boyer,Bachelor of Science in Biomedical Science (B.S.),86,immunology,online-N/A,Online-FT
 Holly Friedman,Bachelor of Science in Nursing (B.S.N.),82,physiotherapy,online-N/A,Online-FT
 Rebecca Cook DVM,Doctor of Pharmacy (Pharm.D.),63,nursing,N/A-N/A,Campus-FT
 Amy Tucker,Doctor of Dental Surgery (D.D.S.),62,physiotherapy,N/A-FT,Campus-FT
@@ -21,3 +19,5 @@ Timothy Rodriguez,Doctor of Optometry (O.D.),82,dentistry,campus-PT,Campus-PT
 Christopher Gonzalez,Bachelor of Science in Biomedical Science (B.S.),75,surgery,online-N/A,Online-FT
 Alyssa Wilson,Doctor of Medicine (M.D.),92,surgery,online-FT,Online-FT
 Maria Harris,Master of Health Administration (M.H.A.),77,surgery,N/A-FT,Campus-FT
+Ashley Harris,Doctor of Pharmacy (Pharm.D.),96,nutrition,N/A-FT,Campus-FT
+Thomas Boyer,Bachelor of Science in Biomedical Science (B.S.),86,immunology,online-N/A,Online-FT
