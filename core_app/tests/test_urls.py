@@ -2,25 +2,32 @@ from django.test import SimpleTestCase
 from django.urls import reverse, resolve
 from core_app.views import *
 
-# urlpatterns = [
-#     path('', views.homepage, name='homepage'),
-#     path('internship', views.internship, name='internship'),
-#     path('student', views.student, name='student'),
-#     path('submit-student', views.submit_student, name='submit-student'),
-#     path('submit-internship', views.submit_internship, name='submit-internship'),
-#     path('clean-data', views.clean_data, name='clean-data'),
-#     path('matching', views.matching_view, name='matching'),
-#     path('sysadmin', views.admin_page, name='sysadmin')
-# ]
-
 class TestURLs(SimpleTestCase):
 
-    # ERROR WHEN TESTING URL FOR HOMEPAGE, MAYBE THERE IS A SPECIAL WAY TO TEST THIS VIEW?
-
-    def test_internship_url_is_resolved(self):
+    def test_internship_url(self):
         url = reverse('internship')
         self.assertEquals(resolve(url).func, internship)
 
-    # copy above test for all app urls
+    def test_student_url(self):
+        url = reverse('student')
+        self.assertEquals(resolve(url).func, student)
 
-    # TODO
+    def test_submit_student_url(self):
+        url = reverse('submit-student')
+        self.assertEquals(resolve(url).func, submit_student)
+
+    def test_submit_internship_url(self):
+        url = reverse('submit-internship')
+        self.assertEquals(resolve(url).func, submit_internship)
+
+    def test_clean_data_url(self):
+        url = reverse('clean-data')
+        self.assertEquals(resolve(url).func, clean_data)
+
+    def test_matching_url(self):
+        url = reverse('matching')
+        self.assertEquals(resolve(url).func, matching_view)
+
+    def test_sysadmin_url(self):
+        url = reverse('sysadmin')
+        self.assertEquals(resolve(url).func, admin_page)
