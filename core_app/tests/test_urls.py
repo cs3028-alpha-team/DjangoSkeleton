@@ -2,6 +2,8 @@ from django.test import SimpleTestCase
 from django.urls import reverse, resolve
 from core_app.views import *
 
+# test that the view obtained by 'reversing' the url given 
+# in each step corresponds to the expected one 
 class TestURLs(SimpleTestCase):
 
     def test_internship_url(self):
