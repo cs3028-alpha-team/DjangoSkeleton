@@ -42,7 +42,6 @@ def submit_student(request):
             if os.path.getsize(file_path) == 0:
                 file.write("Fullname,Course,Score,Experience,StudyMode,StudyPattern\n")
             file.write(csv_content)
-
        
         return HttpResponse('Form submitted')
     else:
