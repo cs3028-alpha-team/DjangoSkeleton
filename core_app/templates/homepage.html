@@ -7,7 +7,15 @@
   </head>
   <body class="page1">
     <header>
-      <h1>University of Aberdeen</h1>
+      <h1>
+        <a href="{% url 'homepage' %}">
+          <img
+            class="rb"
+            src="{% static 'images/return-button.jpg' %}"
+            alt="return button"
+          />
+        </a>
+      </h1>
       <a href="https://www.abdn.ac.uk/">
         <img
           class="smallimg"
@@ -35,7 +43,7 @@
     <ul>
       <div class="admin">
         <h2>Admin Login</h2>
-        <li><a href="{% url 'sysadmin' %}">Login</a></li>
+        <li><a href="{% url 'logadmin' %}">Login</a></li>
       </div>
     </ul>
   </body>

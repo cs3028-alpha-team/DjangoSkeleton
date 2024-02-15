@@ -23,6 +23,8 @@ def student(request):
 def admin_page(request):
     return render(request, 'sysadmin.html')
 
+def log_admin(request):
+    return render(request, 'logadmin.html')
 
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
