@@ -49,8 +49,9 @@ body.page1 {
  
 .page1 h1{
     background-color:white;
-    padding: 15px;
-    top: -10px;
+    padding: 20px;
+    top: 0px;
+    height: 70px;
     width: 100%;
     position:fixed;
     color: white;
@@ -74,6 +75,12 @@ header img.smallimg{
 
 .topList{
     color: black;
+}
+.rb{
+    margin-top: -12px;
+    padding: 0px;
+    width: 50px;
+    margin-left: 25px;
 }
 
 .page1 nav{
@@ -156,7 +163,6 @@ div.top{
     text-align: center;
     padding: 1px;
     margin-bottom: -20px;
-    
 }
 
 header.form1H{
@@ -273,29 +279,36 @@ div.form2 header{
     background-size: cover;
 }
 
+ 
 .page3 h1{
-    
     background-color:white;
-    padding: 15px;
-    top: -10px;
+    padding: 20px;
+    top: 0px;
+    height: 70px;
     width: 100%;
     position:fixed;
     color: white;
-        
     
 }
-.page3 nav{
-    background-color: white;
-    position: absolute;
-    top: 30%;
-    left: 55%;
-    width: 500px;
-    height: 150px;
-    border-radius: 5px;
-    padding: 10px 30px 20px 5px;
-    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
-    max-height: 680px;
+.rb2{
+    margin-top: -12px;
+    padding: 0px;
+    width: 50px;
+    margin-left: 25px;
 }
+.page3 nav {
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    width: 500px;
+    height: 170px;
+    border-radius: 5px;
+    padding: 10px 10px 10px 5px;
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.2);
+    transform: translate(-50%, -50%);
+}
+
 .Aheader h2{
     text-align: center;
 }
@@ -305,19 +318,36 @@ div.form2 header{
 }
 
 
-header img.img2{
-    position: absolute;
-    top: 25%;
-    width: 270px;
-    left: 10%;
+div.Content button {
+    display: block;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(17, 17, 80);
+    margin: 5px;
+    padding: 7px;
+    font-weight: 500;
+    width: 97.8%;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+div.admin button:hover {
+    background-color: rgb(0, 0, 128);
 }
 
 /*end*/
 
 
 /*pseudo elements  main page*/
-nav ul li a:hover {
 
+div.admin button:hover {
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
     text-decoration: underline;
 }
 
