@@ -1,9 +1,8 @@
 from django.contrib import admin
-from .models import Students
-from .models import Internships
+from .models import Student
+from .models import Internship
 
-# Register your models here.
 
-admin.site.register(Students)
-admin.site.register(Internships)
+admin.site.register(Student)
+admin.site.register(Internship)
 

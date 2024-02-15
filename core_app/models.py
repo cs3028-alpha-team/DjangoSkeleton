@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 #student model
-class Students(models.Model):
+class Student(models.Model):
     studentID = models.BigAutoField(primary_key=True)
     first_name =models.CharField(max_length=50)
     last_name =models.CharField(max_length=50)
@@ -18,7 +18,7 @@ class Students(models.Model):
         return self.first_name + self.last_name
 
 #internship model
-class Internships(models.Model):
+class Internship(models.Model):
     intershipID = models.BigAutoField(primary_key=True)
     organisation = models.CharField(max_length=50)
     job_role = models.CharField(max_length=50)

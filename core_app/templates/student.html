@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="{% static '/css/styles.css'%}" />
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}" />
     <title>Student Internship Form</title>
   </head>
   <body class="IFORM">
     <div class="form2" style="overflow-y: scroll">
       <header>Student Internship Application</header>
-      <form method="post" action="{% url 'submit-internship' %}">
+      <form method="post" action="{% url 'submit-student' %}">
         {% csrf_token %}
         <div class="fields2">
           <div class="input">
