@@ -23,7 +23,8 @@ def student(request):
 def admin_page(request):
     return render(request, 'sysadmin.html')
 
-
+def log_admin(request):
+    return render(request, 'logadmin.html')
 
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
@@ -43,11 +44,10 @@ def submit_student(request):
             if os.path.getsize(file_path) == 0:
                 file.write("Fullname,Course,Score,Experience,StudyMode,StudyPattern\n")
             file.write(csv_content)
-
        
         return HttpResponse('Form submitted')
     else:
-        return render(request, 'your_template.html')
+        return HttpResponse('Error while submitting student form')
 
 #Function to get user input and populate the jobs csv in the data folder
 def submit_internship(request):
@@ -70,7 +70,7 @@ def submit_internship(request):
         return HttpResponse('Form submitted')
     else:
         # TODO : change this to a 404 template!
-        return render(request, 'your_template.html')
+        return HttpResponse('Error while submitting internship form')
         
 def clean_data(request):
 
@@ -106,9 +106,6 @@ def matching_view(request):
         return HttpResponse('Matching process completed. Compatibility matrix saved to CSV file.')
     else:
         return HttpResponse('Error: POST request expected.')
-
-
-
 
 def run_matching_algorithm(request):
     candidates = pd.read_csv('data/processed_candidates.csv')
