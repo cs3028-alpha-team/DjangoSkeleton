@@ -4,6 +4,8 @@ from django.http import HttpResponseRedirect
 from .clean_data import process_data
 from .matching import *
 from .algorithm import run_gale_shapley
+from django.core.mail import send_mail
+from django.conf import settings
 import subprocess
 import csv
 import os
@@ -130,3 +132,12 @@ def run_matching_algorithm(request):
     print("Results saved to CSV file.")
     
     return HttpResponse('Matching algorithm executed successfully. Results saved to CSV file.')
+
+def send_email(request):
+    send_mail(
+        'message_name', #subject
+        'message', #message
+        settings.EMAIL_HOST_USER, #from email
+        ['basoce4351@tospage.com'], #to email      
+    )
+    return HttpResponse('Email sent')
