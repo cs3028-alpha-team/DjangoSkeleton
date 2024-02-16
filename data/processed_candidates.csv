@@ -1,10 +1,4 @@
 Fullname,Course,Score,Experience,StudyProgram,CleanedStudyProgram
-Holly Friedman,Bachelor of Science in Nursing (B.S.N.),82,physiotherapy,online-N/A,Online-FT
-Rebecca Cook DVM,Doctor of Pharmacy (Pharm.D.),63,nursing,N/A-N/A,Campus-FT
-Amy Tucker,Doctor of Dental Surgery (D.D.S.),62,physiotherapy,N/A-FT,Campus-FT
-John Young PhD,Doctor of Dental Medicine (D.M.D.),100,nutrition,online-N/A,Online-FT
-James Scott,Doctor of Medicine (M.D.),73,nursing,campus-PT,Campus-PT
-Jeffrey Miles,Doctor of Dental Surgery (D.D.S.),92,surgery,campus-N/A,Campus-FT
 Andrew Green,Doctor of Medicine (M.D.),73,nursing,campus-FT,Campus-FT
 Stephanie Warner,Doctor of Dental Surgery (D.D.S.),78,physiotherapy,online-N/A,Online-FT
 Marie Mcintyre,Doctor of Dental Surgery (D.D.S.),69,surgery,online-PT,Online-PT
@@ -13,11 +7,995 @@ Jaime Lopez,Doctor of Dental Medicine (D.M.D.),58,immunology,online-N/A,Online-F
 Reginald Owens,Doctor of Osteopathic Medicine (D.O.),60,physiotherapy,campus-FT,Campus-FT
 Amber Blair,Master of Health Administration (M.H.A.),93,surgery,N/A-N/A,Campus-FT
 James Ramsey,Doctor of Optometry (O.D.),56,nursing,N/A-N/A,Campus-FT
+Ashley Harris,Doctor of Pharmacy (Pharm.D.),96,nutrition,N/A-FT,Campus-FT
+Maria Harris,Master of Health Administration (M.H.A.),77,surgery,N/A-FT,Campus-FT
+Thomas Boyer,Bachelor of Science in Biomedical Science (B.S.),86,immunology,online-N/A,Online-FT
+Holly Friedman,Bachelor of Science in Nursing (B.S.N.),82,physiotherapy,online-N/A,Online-FT
+Rebecca Cook DVM,Doctor of Pharmacy (Pharm.D.),63,nursing,N/A-N/A,Campus-FT
+Amy Tucker,Doctor of Dental Surgery (D.D.S.),62,physiotherapy,N/A-FT,Campus-FT
+John Young PhD,Doctor of Dental Medicine (D.M.D.),100,nutrition,online-N/A,Online-FT
+James Scott,Doctor of Medicine (M.D.),73,nursing,campus-PT,Campus-PT
+Jeffrey Miles,Doctor of Dental Surgery (D.D.S.),92,surgery,campus-N/A,Campus-FT
 Theresa Robinson,Doctor of Dental Surgery (D.D.S.),85,dentistry,N/A-PT,Campus-PT
 Elizabeth White,Bachelor of Science in Nursing (B.S.N.),60,physiotherapy,online-FT,Online-FT
 Timothy Rodriguez,Doctor of Optometry (O.D.),82,dentistry,campus-PT,Campus-PT
 Christopher Gonzalez,Bachelor of Science in Biomedical Science (B.S.),75,surgery,online-N/A,Online-FT
 Alyssa Wilson,Doctor of Medicine (M.D.),92,surgery,online-FT,Online-FT
-Maria Harris,Master of Health Administration (M.H.A.),77,surgery,N/A-FT,Campus-FT
-Ashley Harris,Doctor of Pharmacy (Pharm.D.),96,nutrition,N/A-FT,Campus-FT
-Thomas Boyer,Bachelor of Science in Biomedical Science (B.S.),86,immunology,online-N/A,Online-FT
+Taylor Branch,Doctor of Veterinary Medicine (D.V.M.),78,None,N/A-PT,Campus-PT
+Andrew Carr,Doctor of Optometry (O.D.),91,None,N/A-FT,Campus-FT
+Carl Schroeder,Doctor of Physical Therapy (D.P.T.),80,nutrition,campus-PT,Campus-PT
+Jason Floyd,Doctor of Veterinary Medicine (D.V.M.),82,nutrition,campus-N/A,Campus-FT
+Christopher Bradley,Bachelor of Science in Nursing (B.S.N.),99,dentistry,online-N/A,Online-FT
+Jennifer Lucas,Master of Health Administration (M.H.A.),83,nutrition,campus-N/A,Campus-FT
+Rhonda Smith,Doctor of Nursing Practice (D.N.P.),97,immunology,online-N/A,Online-FT
+Robert Wilson,Doctor of Podiatric Medicine (D.P.M.),58,immunology,N/A-N/A,Campus-FT
+Nicole Maynard,Bachelor of Science in Nursing (B.S.N.),94,None,online-PT,Online-PT
+Tammy Cox,Doctor of Osteopathic Medicine (D.O.),75,None,online-FT,Online-FT
+Deborah Martin,Bachelor of Science in Nursing (B.S.N.),88,nutrition,campus-FT,Campus-FT
+Gregory Parrish,Bachelor of Science in Nursing (B.S.N.),72,immunology,N/A-N/A,Campus-FT
+Brenda Taylor,Doctor of Nursing Practice (D.N.P.),96,dentistry,online-N/A,Online-FT
+Danielle Casey,Doctor of Pharmacy (Pharm.D.),96,nursing,campus-PT,Campus-PT
+Anna Clark,Doctor of Chiropractic (D.C.),67,physiotherapy,campus-PT,Campus-PT
+Heather Peck,Doctor of Dental Medicine (D.M.D.),76,physiotherapy,online-N/A,Online-FT
+David Scott,Doctor of Physical Therapy (D.P.T.),50,surgery,online-N/A,Online-FT
+Daniel Hicks,Doctor of Optometry (O.D.),82,immunology,campus-PT,Campus-PT
+Gabriella Henry,Doctor of Medicine (M.D.),85,nutrition,online-N/A,Online-FT
+Paul Phillips,Doctor of Dental Medicine (D.M.D.),58,physiotherapy,online-N/A,Online-FT
+David Campbell,Doctor of Physical Therapy (D.P.T.),90,dentistry,N/A-FT,Campus-FT
+Timothy Baldwin,Master of Health Administration (M.H.A.),80,None,campus-PT,Campus-PT
+Renee Cole,Bachelor of Science in Biomedical Science (B.S.),96,nursing,online-N/A,Online-FT
+Caroline Bryant,Bachelor of Science in Biomedical Science (B.S.),62,dentistry,campus-PT,Campus-PT
+Erica Obrien,Doctor of Nursing Practice (D.N.P.),52,physiotherapy,N/A-PT,Campus-PT
+Jeremy White,Doctor of Osteopathic Medicine (D.O.),85,None,campus-FT,Campus-FT
+Lisa Barnes,Doctor of Dental Surgery (D.D.S.),82,None,online-FT,Online-FT
+Kathryn Jones,Master of Health Administration (M.H.A.),50,surgery,campus-PT,Campus-PT
+Chad Watson,Doctor of Optometry (O.D.),91,None,N/A-FT,Campus-FT
+James Reeves,Doctor of Osteopathic Medicine (D.O.),60,surgery,online-PT,Online-PT
+Jesse Mitchell,Doctor of Veterinary Medicine (D.V.M.),98,physiotherapy,campus-PT,Campus-PT
+Bethany Davis,Doctor of Dental Surgery (D.D.S.),76,nursing,N/A-PT,Campus-PT
+Steven Mitchell,Doctor of Veterinary Medicine (D.V.M.),74,dentistry,campus-FT,Campus-FT
+Samuel Taylor,Doctor of Osteopathic Medicine (D.O.),58,immunology,N/A-FT,Campus-FT
+Brian Christensen Jr.,Bachelor of Science in Biomedical Science (B.S.),52,nutrition,campus-FT,Campus-FT
+Keith Avery,Bachelor of Science in Nursing (B.S.N.),76,nursing,online-FT,Online-FT
+Molly Simmons,Doctor of Dental Medicine (D.M.D.),83,None,N/A-FT,Campus-FT
+Jason Cabrera,Doctor of Veterinary Medicine (D.V.M.),88,nutrition,N/A-FT,Campus-FT
+Peter Sutton,Doctor of Dental Surgery (D.D.S.),85,physiotherapy,online-FT,Online-FT
+Candace Zimmerman,Doctor of Medicine (M.D.),100,physiotherapy,online-PT,Online-PT
+Jeffrey Thornton,Doctor of Dental Surgery (D.D.S.),91,nursing,N/A-N/A,Campus-FT
+Kathryn Baker,Doctor of Dental Surgery (D.D.S.),64,physiotherapy,online-FT,Online-FT
+Lance Ellis,Doctor of Medicine (M.D.),69,surgery,N/A-PT,Campus-PT
+Christina Logan,Doctor of Nursing Practice (D.N.P.),61,nursing,N/A-PT,Campus-PT
+Maria Kim,Bachelor of Science in Biomedical Science (B.S.),80,nutrition,online-PT,Online-PT
+Kristen Patel,Doctor of Nursing Practice (D.N.P.),70,surgery,online-PT,Online-PT
+Shawn Chen,Doctor of Dental Medicine (D.M.D.),73,nutrition,N/A-N/A,Campus-FT
+Karen Pope,Bachelor of Science in Nursing (B.S.N.),77,nursing,campus-PT,Campus-PT
+Jennifer Williams,Doctor of Osteopathic Medicine (D.O.),86,nutrition,N/A-PT,Campus-PT
+Stephen Cruz,Doctor of Nursing Practice (D.N.P.),88,dentistry,online-N/A,Online-FT
+Jasmine Garrison,Master of Health Administration (M.H.A.),58,dentistry,online-N/A,Online-FT
+Jennifer Gould,Doctor of Nursing Practice (D.N.P.),86,surgery,N/A-FT,Campus-FT
+Michael Young,Master of Health Administration (M.H.A.),95,dentistry,campus-FT,Campus-FT
+Cody Smith,Bachelor of Science in Nursing (B.S.N.),90,immunology,campus-PT,Campus-PT
+Mark Moore,Doctor of Nursing Practice (D.N.P.),92,immunology,online-PT,Online-PT
+David Tucker,Bachelor of Science in Nursing (B.S.N.),77,dentistry,online-FT,Online-FT
+James Moore,Doctor of Pharmacy (Pharm.D.),64,physiotherapy,campus-FT,Campus-FT
+Theresa West,Doctor of Medicine (M.D.),68,None,N/A-FT,Campus-FT
+Cassidy Klein,Doctor of Dental Surgery (D.D.S.),53,immunology,N/A-N/A,Campus-FT
+Roy Fernandez,Doctor of Dental Medicine (D.M.D.),73,None,online-N/A,Online-FT
+Tommy Bailey,Doctor of Veterinary Medicine (D.V.M.),96,nursing,N/A-PT,Campus-PT
+Jason Brown,Doctor of Pharmacy (Pharm.D.),61,physiotherapy,campus-N/A,Campus-FT
+Kimberly Aguirre,Doctor of Dental Surgery (D.D.S.),91,nursing,N/A-N/A,Campus-FT
+Kenneth Lewis,Doctor of Osteopathic Medicine (D.O.),84,dentistry,N/A-N/A,Campus-FT
+Denise Cantu,Bachelor of Science in Biomedical Science (B.S.),96,dentistry,online-FT,Online-FT
+Thomas Chambers,Doctor of Osteopathic Medicine (D.O.),50,immunology,online-FT,Online-FT
+Ashley Hoffman,Bachelor of Science in Nursing (B.S.N.),72,nutrition,campus-N/A,Campus-FT
+Jonathan Kerr,Doctor of Dental Surgery (D.D.S.),96,physiotherapy,campus-PT,Campus-PT
+Linda Martin,Doctor of Chiropractic (D.C.),86,dentistry,N/A-FT,Campus-FT
+Sandra Stewart,Doctor of Osteopathic Medicine (D.O.),53,immunology,online-FT,Online-FT
+Paul Marshall,Doctor of Chiropractic (D.C.),58,dentistry,campus-FT,Campus-FT
+Sarah Campbell,Bachelor of Science in Nursing (B.S.N.),54,nursing,N/A-FT,Campus-FT
+Joel Crane,Doctor of Osteopathic Medicine (D.O.),65,nutrition,campus-FT,Campus-FT
+William Lynch,Master of Public Health (M.P.H.),76,physiotherapy,campus-FT,Campus-FT
+Luis Clayton,Bachelor of Science in Biomedical Science (B.S.),79,immunology,campus-N/A,Campus-FT
+Tiffany Lee,Doctor of Dental Surgery (D.D.S.),63,nutrition,N/A-N/A,Campus-FT
+Alex Mckenzie,Doctor of Dental Medicine (D.M.D.),75,nursing,campus-PT,Campus-PT
+Louis Brooks,Doctor of Dental Surgery (D.D.S.),77,surgery,campus-PT,Campus-PT
+Derek Palmer,Master of Public Health (M.P.H.),97,nursing,N/A-N/A,Campus-FT
+Samuel House,Doctor of Podiatric Medicine (D.P.M.),97,surgery,campus-PT,Campus-PT
+Joel Richardson,Doctor of Podiatric Medicine (D.P.M.),71,immunology,N/A-PT,Campus-PT
+Carlos Hale,Doctor of Optometry (O.D.),92,nursing,N/A-FT,Campus-FT
+Tommy Riggs,Doctor of Chiropractic (D.C.),90,physiotherapy,campus-PT,Campus-PT
+Carolyn West,Doctor of Veterinary Medicine (D.V.M.),74,nursing,N/A-FT,Campus-FT
+Daniel Sexton,Doctor of Dental Medicine (D.M.D.),58,surgery,N/A-FT,Campus-FT
+Philip Brown,Doctor of Veterinary Medicine (D.V.M.),50,immunology,campus-PT,Campus-PT
+Brian Lowe,Doctor of Pharmacy (Pharm.D.),72,None,online-FT,Online-FT
+Kaitlyn Stevens,Master of Health Administration (M.H.A.),77,physiotherapy,campus-FT,Campus-FT
+Melinda Robinson,Doctor of Physical Therapy (D.P.T.),91,dentistry,online-FT,Online-FT
+Kathleen Johnston,Doctor of Podiatric Medicine (D.P.M.),51,nutrition,online-FT,Online-FT
+Clayton Benitez,Doctor of Veterinary Medicine (D.V.M.),57,None,N/A-PT,Campus-PT
+Kelly Wallace,Doctor of Medicine (M.D.),90,immunology,online-PT,Online-PT
+Brian Jones,Master of Public Health (M.P.H.),71,immunology,N/A-PT,Campus-PT
+Ryan Willis,Doctor of Medicine (M.D.),84,immunology,campus-PT,Campus-PT
+Nicole Brown,Master of Public Health (M.P.H.),52,nursing,online-FT,Online-FT
+Courtney White,Bachelor of Science in Nursing (B.S.N.),66,nutrition,campus-N/A,Campus-FT
+Sarah Johnson,Doctor of Podiatric Medicine (D.P.M.),56,physiotherapy,online-N/A,Online-FT
+Thomas Adams,Doctor of Dental Medicine (D.M.D.),57,physiotherapy,online-N/A,Online-FT
+Melissa Hernandez,Doctor of Dental Surgery (D.D.S.),98,nursing,campus-N/A,Campus-FT
+Elizabeth Kim,Doctor of Podiatric Medicine (D.P.M.),63,nursing,online-PT,Online-PT
+Paul Newton,Master of Public Health (M.P.H.),85,surgery,N/A-PT,Campus-PT
+Samantha Simon,Doctor of Pharmacy (Pharm.D.),51,nutrition,online-N/A,Online-FT
+Jeremy Griffin,Master of Public Health (M.P.H.),67,immunology,campus-N/A,Campus-FT
+Nancy Miller,Doctor of Medicine (M.D.),71,dentistry,online-FT,Online-FT
+Steven Ortega,Doctor of Physical Therapy (D.P.T.),50,None,N/A-PT,Campus-PT
+Mrs. Laura Gray,Doctor of Optometry (O.D.),92,physiotherapy,campus-N/A,Campus-FT
+Angela Roberson,Doctor of Dental Surgery (D.D.S.),76,surgery,campus-PT,Campus-PT
+Luis Morgan,Doctor of Optometry (O.D.),65,nursing,online-FT,Online-FT
+Marvin Small,Doctor of Podiatric Medicine (D.P.M.),74,immunology,campus-FT,Campus-FT
+David Moore,Master of Public Health (M.P.H.),60,surgery,campus-PT,Campus-PT
+Tony Gonzales,Doctor of Dental Surgery (D.D.S.),69,nutrition,N/A-FT,Campus-FT
+Patricia Johnson,Bachelor of Science in Nursing (B.S.N.),61,immunology,N/A-FT,Campus-FT
+Sabrina Patrick,Doctor of Pharmacy (Pharm.D.),53,physiotherapy,campus-N/A,Campus-FT
+Robyn Peterson,Bachelor of Science in Biomedical Science (B.S.),60,immunology,online-FT,Online-FT
+Mary Williams,Doctor of Podiatric Medicine (D.P.M.),89,nursing,N/A-FT,Campus-FT
+Michael Turner,Doctor of Medicine (M.D.),69,nutrition,online-N/A,Online-FT
+Jennifer Griffith,Doctor of Dental Surgery (D.D.S.),66,None,online-FT,Online-FT
+Jeremy Singh,Bachelor of Science in Nursing (B.S.N.),52,nursing,online-N/A,Online-FT
+Tiffany Willis,Doctor of Optometry (O.D.),62,physiotherapy,N/A-FT,Campus-FT
+Taylor Hodge,Master of Health Administration (M.H.A.),57,physiotherapy,N/A-FT,Campus-FT
+Donna Davis,Doctor of Optometry (O.D.),55,None,N/A-PT,Campus-PT
+Sherri Gonzalez,Doctor of Podiatric Medicine (D.P.M.),69,immunology,online-N/A,Online-FT
+Janice Mcdonald,Doctor of Chiropractic (D.C.),50,immunology,campus-FT,Campus-FT
+Wendy Dixon,Bachelor of Science in Nursing (B.S.N.),82,nursing,campus-N/A,Campus-FT
+Jennifer Hickman,Doctor of Dental Surgery (D.D.S.),98,None,N/A-FT,Campus-FT
+Johnny Allen,Doctor of Medicine (M.D.),82,physiotherapy,N/A-PT,Campus-PT
+Fred Jackson,Doctor of Chiropractic (D.C.),78,nutrition,N/A-PT,Campus-PT
+Marcus Huff,Doctor of Nursing Practice (D.N.P.),60,immunology,N/A-N/A,Campus-FT
+Kyle Garcia,Doctor of Podiatric Medicine (D.P.M.),96,None,N/A-N/A,Campus-FT
+Deborah Edwards,Doctor of Dental Medicine (D.M.D.),78,immunology,N/A-N/A,Campus-FT
+Mark Terrell,Doctor of Dental Medicine (D.M.D.),66,surgery,campus-N/A,Campus-FT
+Jacqueline Morris,Doctor of Dental Medicine (D.M.D.),91,immunology,campus-PT,Campus-PT
+Rhonda Stevenson,Master of Public Health (M.P.H.),91,nutrition,campus-N/A,Campus-FT
+Erica Hooper,Master of Public Health (M.P.H.),56,physiotherapy,online-N/A,Online-FT
+Wendy Gonzales,Doctor of Dental Medicine (D.M.D.),78,dentistry,online-FT,Online-FT
+Valerie Phillips,Doctor of Dental Surgery (D.D.S.),90,surgery,N/A-PT,Campus-PT
+Pamela Conner,Master of Health Administration (M.H.A.),70,surgery,online-PT,Online-PT
+James Myers,Doctor of Podiatric Medicine (D.P.M.),53,None,campus-FT,Campus-FT
+Linda Jackson,Doctor of Optometry (O.D.),63,nursing,N/A-PT,Campus-PT
+Jeremy Robinson,Doctor of Veterinary Medicine (D.V.M.),100,nutrition,online-FT,Online-FT
+Dr. Lauren Young DDS,Doctor of Veterinary Medicine (D.V.M.),73,None,campus-N/A,Campus-FT
+Jose Montoya,Doctor of Nursing Practice (D.N.P.),67,physiotherapy,N/A-FT,Campus-FT
+Jeffery Johnson,Bachelor of Science in Nursing (B.S.N.),55,nutrition,campus-N/A,Campus-FT
+Jacob Bates,Bachelor of Science in Nursing (B.S.N.),84,dentistry,online-FT,Online-FT
+Jeffrey Hunter,Doctor of Dental Medicine (D.M.D.),90,nursing,N/A-FT,Campus-FT
+Aaron Hernandez,Doctor of Dental Surgery (D.D.S.),81,physiotherapy,N/A-N/A,Campus-FT
+Laura Valdez,Doctor of Dental Medicine (D.M.D.),59,dentistry,online-PT,Online-PT
+Daniel Gross,Doctor of Optometry (O.D.),67,immunology,N/A-N/A,Campus-FT
+Brian Mendoza,Doctor of Physical Therapy (D.P.T.),94,physiotherapy,N/A-FT,Campus-FT
+Johnny Archer,Doctor of Medicine (M.D.),83,None,campus-FT,Campus-FT
+Alejandra Cardenas,Master of Public Health (M.P.H.),79,dentistry,campus-N/A,Campus-FT
+Robert Walker,Doctor of Medicine (M.D.),68,immunology,online-FT,Online-FT
+Melissa Henderson,Doctor of Chiropractic (D.C.),82,dentistry,online-FT,Online-FT
+Emily Peterson,Doctor of Physical Therapy (D.P.T.),73,surgery,N/A-FT,Campus-FT
+Kevin Allen,Doctor of Podiatric Medicine (D.P.M.),55,None,N/A-FT,Campus-FT
+Emily Huber,Doctor of Medicine (M.D.),73,nursing,N/A-PT,Campus-PT
+Sheila Jones,Doctor of Pharmacy (Pharm.D.),90,nursing,campus-PT,Campus-PT
+Larry Abbott,Doctor of Nursing Practice (D.N.P.),95,immunology,online-FT,Online-FT
+Stephanie King,Doctor of Podiatric Medicine (D.P.M.),85,surgery,campus-N/A,Campus-FT
+Jason Bush,Doctor of Physical Therapy (D.P.T.),71,None,campus-FT,Campus-FT
+Amanda Vazquez,Doctor of Chiropractic (D.C.),70,nursing,online-N/A,Online-FT
+Brittany Ford,Master of Health Administration (M.H.A.),89,surgery,N/A-N/A,Campus-FT
+Jeremy Moore,Doctor of Pharmacy (Pharm.D.),50,immunology,N/A-PT,Campus-PT
+Mrs. Kimberly Baker,Doctor of Optometry (O.D.),72,surgery,campus-PT,Campus-PT
+Steven Black,Doctor of Optometry (O.D.),85,nursing,campus-N/A,Campus-FT
+Elizabeth Bradford,Doctor of Dental Medicine (D.M.D.),78,immunology,online-FT,Online-FT
+Leah Poole,Doctor of Osteopathic Medicine (D.O.),66,surgery,campus-FT,Campus-FT
+Leah Ramirez,Doctor of Optometry (O.D.),80,physiotherapy,online-PT,Online-PT
+Joshua Sharp,Master of Public Health (M.P.H.),97,nutrition,campus-FT,Campus-FT
+Katherine Harris,Doctor of Dental Medicine (D.M.D.),75,nursing,online-FT,Online-FT
+Samantha Barnes,Doctor of Nursing Practice (D.N.P.),84,nursing,N/A-N/A,Campus-FT
+Omar Edwards,Doctor of Medicine (M.D.),94,None,online-FT,Online-FT
+Michelle Anderson,Doctor of Osteopathic Medicine (D.O.),93,surgery,online-PT,Online-PT
+Brandon Kramer,Bachelor of Science in Biomedical Science (B.S.),64,surgery,campus-N/A,Campus-FT
+Brittany Yoder,Doctor of Pharmacy (Pharm.D.),73,nursing,online-N/A,Online-FT
+Jessica Nguyen,Doctor of Osteopathic Medicine (D.O.),56,nursing,campus-FT,Campus-FT
+Haley Davis,Doctor of Dental Medicine (D.M.D.),56,nursing,campus-PT,Campus-PT
+Stephen Zimmerman,Master of Health Administration (M.H.A.),64,physiotherapy,N/A-PT,Campus-PT
+Mark Guerrero,Doctor of Dental Medicine (D.M.D.),77,surgery,online-FT,Online-FT
+Brian Ward,Doctor of Dental Medicine (D.M.D.),88,physiotherapy,campus-FT,Campus-FT
+Tracey Rangel,Doctor of Podiatric Medicine (D.P.M.),69,immunology,N/A-PT,Campus-PT
+Brianna Walker,Doctor of Podiatric Medicine (D.P.M.),80,None,online-N/A,Online-FT
+Matthew Nichols,Master of Public Health (M.P.H.),64,nutrition,online-PT,Online-PT
+Sean Little,Bachelor of Science in Biomedical Science (B.S.),56,nutrition,N/A-N/A,Campus-FT
+Kent White,Doctor of Nursing Practice (D.N.P.),85,None,online-FT,Online-FT
+Teresa Reed,Doctor of Chiropractic (D.C.),86,physiotherapy,online-PT,Online-PT
+Shaun Schmidt,Doctor of Nursing Practice (D.N.P.),88,surgery,online-PT,Online-PT
+Jessica Craig,Doctor of Osteopathic Medicine (D.O.),53,immunology,campus-FT,Campus-FT
+Steven Walker,Master of Health Administration (M.H.A.),84,physiotherapy,online-FT,Online-FT
+Jeremy Terry,Doctor of Pharmacy (Pharm.D.),82,physiotherapy,online-PT,Online-PT
+Samuel Baxter,Bachelor of Science in Nursing (B.S.N.),96,surgery,N/A-FT,Campus-FT
+Hannah Wood,Doctor of Medicine (M.D.),56,None,campus-PT,Campus-PT
+Deborah Stone,Master of Health Administration (M.H.A.),84,nursing,online-N/A,Online-FT
+Janice Evans,Doctor of Medicine (M.D.),66,surgery,online-N/A,Online-FT
+Jenna Duffy,Doctor of Physical Therapy (D.P.T.),62,nursing,online-FT,Online-FT
+Nathan Ward,Doctor of Optometry (O.D.),57,surgery,campus-FT,Campus-FT
+Paula Wilson,Doctor of Osteopathic Medicine (D.O.),62,surgery,campus-N/A,Campus-FT
+Kristy Wagner,Bachelor of Science in Biomedical Science (B.S.),74,physiotherapy,campus-N/A,Campus-FT
+Nicholas Martinez,Doctor of Dental Medicine (D.M.D.),96,dentistry,online-FT,Online-FT
+Richard Tucker,Doctor of Physical Therapy (D.P.T.),66,nutrition,online-FT,Online-FT
+Kyle Garcia,Master of Health Administration (M.H.A.),95,dentistry,campus-N/A,Campus-FT
+Katie Smith,Doctor of Veterinary Medicine (D.V.M.),69,nursing,campus-FT,Campus-FT
+Sara Randolph,Doctor of Nursing Practice (D.N.P.),56,physiotherapy,campus-PT,Campus-PT
+Robert Cameron,Doctor of Nursing Practice (D.N.P.),62,nursing,N/A-FT,Campus-FT
+Mrs. Sarah Butler,Doctor of Chiropractic (D.C.),54,nursing,N/A-PT,Campus-PT
+Stacey Colon,Doctor of Optometry (O.D.),86,None,online-PT,Online-PT
+Andrea Davis,Doctor of Optometry (O.D.),81,physiotherapy,N/A-FT,Campus-FT
+Steven Lane,Doctor of Podiatric Medicine (D.P.M.),65,physiotherapy,campus-FT,Campus-FT
+Lori Turner,Doctor of Dental Surgery (D.D.S.),62,surgery,online-FT,Online-FT
+Donna Thomas,Doctor of Pharmacy (Pharm.D.),62,nutrition,campus-PT,Campus-PT
+Marc Rios,Bachelor of Science in Biomedical Science (B.S.),96,None,campus-N/A,Campus-FT
+Kimberly Cole,Doctor of Osteopathic Medicine (D.O.),97,dentistry,campus-PT,Campus-PT
+John Davis PhD,Doctor of Osteopathic Medicine (D.O.),55,dentistry,online-N/A,Online-FT
+Kyle Briggs,Doctor of Medicine (M.D.),61,immunology,N/A-N/A,Campus-FT
+Jeffrey Porter,Doctor of Dental Medicine (D.M.D.),84,physiotherapy,campus-PT,Campus-PT
+Charles Gibson,Doctor of Physical Therapy (D.P.T.),70,nutrition,campus-FT,Campus-FT
+Mary Gonzalez,Doctor of Nursing Practice (D.N.P.),76,None,campus-PT,Campus-PT
+Chelsea Bryant,Doctor of Optometry (O.D.),70,dentistry,online-N/A,Online-FT
+Tammy Garcia,Bachelor of Science in Nursing (B.S.N.),61,nursing,N/A-N/A,Campus-FT
+Elizabeth Phillips,Doctor of Dental Medicine (D.M.D.),87,nursing,online-FT,Online-FT
+James Robinson,Master of Public Health (M.P.H.),58,None,campus-FT,Campus-FT
+Jamie White,Doctor of Nursing Practice (D.N.P.),91,nutrition,online-FT,Online-FT
+Adam Everett,Bachelor of Science in Biomedical Science (B.S.),52,physiotherapy,N/A-FT,Campus-FT
+Ashley Brown,Doctor of Veterinary Medicine (D.V.M.),95,dentistry,online-PT,Online-PT
+Jackie Moore,Doctor of Physical Therapy (D.P.T.),80,physiotherapy,online-PT,Online-PT
+Victoria Owens,Doctor of Dental Medicine (D.M.D.),63,surgery,campus-FT,Campus-FT
+Joseph White,Doctor of Veterinary Medicine (D.V.M.),55,nutrition,N/A-PT,Campus-PT
+Andrew Villegas,Master of Public Health (M.P.H.),50,nutrition,online-N/A,Online-FT
+Caitlin Mcdaniel,Doctor of Podiatric Medicine (D.P.M.),75,surgery,online-FT,Online-FT
+Jasmine Mckee,Master of Public Health (M.P.H.),61,immunology,campus-N/A,Campus-FT
+John Deleon,Doctor of Physical Therapy (D.P.T.),85,nutrition,campus-PT,Campus-PT
+Mary Reed,Doctor of Podiatric Medicine (D.P.M.),95,physiotherapy,campus-PT,Campus-PT
+Aaron Richardson,Master of Health Administration (M.H.A.),67,nutrition,N/A-N/A,Campus-FT
+Holly Michael,Master of Health Administration (M.H.A.),96,None,campus-FT,Campus-FT
+Christopher Smith,Doctor of Veterinary Medicine (D.V.M.),66,surgery,campus-FT,Campus-FT
+Michael Harmon,Doctor of Osteopathic Medicine (D.O.),74,dentistry,N/A-PT,Campus-PT
+Kristen Phillips,Master of Public Health (M.P.H.),58,physiotherapy,online-PT,Online-PT
+Anthony Meyers,Doctor of Pharmacy (Pharm.D.),56,nursing,online-N/A,Online-FT
+Jeremy Morris,Bachelor of Science in Biomedical Science (B.S.),94,dentistry,online-PT,Online-PT
+Roy Jackson,Master of Public Health (M.P.H.),88,nutrition,N/A-FT,Campus-FT
+Jennifer Boone MD,Doctor of Dental Medicine (D.M.D.),96,nursing,N/A-PT,Campus-PT
+Robert Perez,Master of Health Administration (M.H.A.),83,dentistry,campus-PT,Campus-PT
+Deanna Daniel,Bachelor of Science in Nursing (B.S.N.),86,surgery,online-PT,Online-PT
+Sarah Bentley,Doctor of Pharmacy (Pharm.D.),87,nutrition,online-N/A,Online-FT
+Margaret Rojas,Doctor of Optometry (O.D.),60,nutrition,online-FT,Online-FT
+Monica Barton,Master of Public Health (M.P.H.),96,physiotherapy,N/A-PT,Campus-PT
+Jason King,Doctor of Medicine (M.D.),80,physiotherapy,online-FT,Online-FT
+Amanda Black,Doctor of Optometry (O.D.),65,nursing,campus-PT,Campus-PT
+John Casey,Doctor of Dental Surgery (D.D.S.),50,surgery,campus-N/A,Campus-FT
+Taylor Washington,Doctor of Medicine (M.D.),90,surgery,N/A-FT,Campus-FT
+Mary Meyers,Doctor of Chiropractic (D.C.),63,nutrition,N/A-FT,Campus-FT
+Charles Martinez,Doctor of Chiropractic (D.C.),68,nursing,online-FT,Online-FT
+Lisa Yoder,Bachelor of Science in Nursing (B.S.N.),76,nutrition,campus-N/A,Campus-FT
+Sandra Rangel,Doctor of Medicine (M.D.),63,surgery,N/A-PT,Campus-PT
+Richard Nguyen,Doctor of Optometry (O.D.),79,physiotherapy,online-PT,Online-PT
+Amanda Patterson,Doctor of Nursing Practice (D.N.P.),90,nursing,N/A-PT,Campus-PT
+Heather Ross,Doctor of Medicine (M.D.),57,dentistry,N/A-PT,Campus-PT
+Shelly Martin,Doctor of Chiropractic (D.C.),55,nutrition,N/A-PT,Campus-PT
+Alyssa Hill,Master of Public Health (M.P.H.),89,immunology,N/A-PT,Campus-PT
+Mr. Rodney Daniels,Master of Public Health (M.P.H.),57,dentistry,online-PT,Online-PT
+Heather Carrillo,Doctor of Nursing Practice (D.N.P.),65,immunology,campus-PT,Campus-PT
+Richard Hardin,Doctor of Pharmacy (Pharm.D.),82,physiotherapy,campus-N/A,Campus-FT
+Robert Fleming,Doctor of Podiatric Medicine (D.P.M.),56,surgery,N/A-N/A,Campus-FT
+Daniel White,Bachelor of Science in Biomedical Science (B.S.),54,None,N/A-FT,Campus-FT
+David Carlson,Doctor of Dental Surgery (D.D.S.),53,surgery,N/A-N/A,Campus-FT
+Gregory Wallace,Doctor of Dental Surgery (D.D.S.),68,surgery,N/A-N/A,Campus-FT
+Jamie Collins,Doctor of Optometry (O.D.),67,None,online-PT,Online-PT
+Sean Jacobs,Bachelor of Science in Nursing (B.S.N.),74,surgery,N/A-PT,Campus-PT
+Mark Cervantes,Doctor of Podiatric Medicine (D.P.M.),79,nutrition,online-PT,Online-PT
+Brittany Hernandez,Doctor of Pharmacy (Pharm.D.),94,immunology,campus-PT,Campus-PT
+Leslie Rogers,Doctor of Veterinary Medicine (D.V.M.),68,None,online-N/A,Online-FT
+Christie Vasquez,Doctor of Osteopathic Medicine (D.O.),97,surgery,N/A-N/A,Campus-FT
+Monica Castro,Doctor of Dental Medicine (D.M.D.),68,immunology,campus-PT,Campus-PT
+Douglas Kelly,Doctor of Dental Medicine (D.M.D.),75,immunology,campus-FT,Campus-FT
+Nicholas Ryan,Doctor of Optometry (O.D.),71,None,campus-N/A,Campus-FT
+Brooke Boyer,Doctor of Podiatric Medicine (D.P.M.),81,physiotherapy,N/A-N/A,Campus-FT
+Brandon Allen,Bachelor of Science in Nursing (B.S.N.),50,dentistry,campus-N/A,Campus-FT
+Vanessa Simmons,Doctor of Medicine (M.D.),94,nutrition,campus-N/A,Campus-FT
+Crystal Lopez,Master of Health Administration (M.H.A.),81,nursing,online-PT,Online-PT
+Margaret Singleton,Doctor of Pharmacy (Pharm.D.),99,nursing,campus-PT,Campus-PT
+Tonya Perez,Doctor of Optometry (O.D.),97,immunology,N/A-N/A,Campus-FT
+Tonya Mitchell,Doctor of Chiropractic (D.C.),84,immunology,online-PT,Online-PT
+Mrs. Monica Reese,Doctor of Pharmacy (Pharm.D.),67,nutrition,campus-FT,Campus-FT
+Kathleen Lopez,Doctor of Osteopathic Medicine (D.O.),70,nursing,online-FT,Online-FT
+Jordan Wade,Doctor of Medicine (M.D.),56,dentistry,N/A-PT,Campus-PT
+Paul Ramirez,Doctor of Physical Therapy (D.P.T.),61,surgery,N/A-FT,Campus-FT
+Toni Jones,Master of Public Health (M.P.H.),62,physiotherapy,N/A-PT,Campus-PT
+Ryan Vargas,Doctor of Veterinary Medicine (D.V.M.),89,physiotherapy,campus-PT,Campus-PT
+Nancy Mcdonald,Master of Health Administration (M.H.A.),84,dentistry,N/A-N/A,Campus-FT
+Lauren Ortiz,Doctor of Podiatric Medicine (D.P.M.),94,nutrition,N/A-FT,Campus-FT
+Michael Williams,Bachelor of Science in Nursing (B.S.N.),58,immunology,campus-FT,Campus-FT
+Gloria Barnes,Doctor of Optometry (O.D.),66,immunology,campus-PT,Campus-PT
+Jason Mcdonald,Bachelor of Science in Biomedical Science (B.S.),76,immunology,online-FT,Online-FT
+Carmen Lam,Doctor of Physical Therapy (D.P.T.),83,nursing,N/A-PT,Campus-PT
+Jessica Cook,Master of Health Administration (M.H.A.),65,nutrition,N/A-PT,Campus-PT
+Robert Williams,Doctor of Dental Medicine (D.M.D.),92,immunology,online-PT,Online-PT
+Alan West,Doctor of Dental Medicine (D.M.D.),85,None,N/A-PT,Campus-PT
+Michael Fitzgerald,Doctor of Physical Therapy (D.P.T.),68,physiotherapy,N/A-FT,Campus-FT
+Carolyn Ballard,Master of Public Health (M.P.H.),70,surgery,campus-N/A,Campus-FT
+Brian Vega,Bachelor of Science in Biomedical Science (B.S.),98,surgery,N/A-PT,Campus-PT
+Diana Reyes,Bachelor of Science in Nursing (B.S.N.),63,immunology,online-N/A,Online-FT
+Katherine Mack,Doctor of Medicine (M.D.),70,dentistry,campus-PT,Campus-PT
+Austin Watkins,Doctor of Medicine (M.D.),89,nursing,online-PT,Online-PT
+Jason Leblanc,Doctor of Optometry (O.D.),58,immunology,N/A-N/A,Campus-FT
+Deanna Holmes,Bachelor of Science in Biomedical Science (B.S.),95,surgery,N/A-PT,Campus-PT
+Rick Rios,Doctor of Physical Therapy (D.P.T.),80,dentistry,online-FT,Online-FT
+Seth Anderson,Doctor of Medicine (M.D.),54,dentistry,N/A-FT,Campus-FT
+Mr. Nathan Richard,Doctor of Chiropractic (D.C.),86,nutrition,N/A-PT,Campus-PT
+Steven Murphy,Bachelor of Science in Biomedical Science (B.S.),57,immunology,campus-N/A,Campus-FT
+Lance Avery,Doctor of Optometry (O.D.),92,dentistry,campus-PT,Campus-PT
+Julian Strickland,Doctor of Pharmacy (Pharm.D.),68,surgery,N/A-N/A,Campus-FT
+Pamela Knight,Doctor of Chiropractic (D.C.),60,physiotherapy,online-N/A,Online-FT
+David Smith,Master of Public Health (M.P.H.),90,nutrition,online-PT,Online-PT
+Lance Bender,Doctor of Chiropractic (D.C.),86,nutrition,online-PT,Online-PT
+Juan Jones,Doctor of Podiatric Medicine (D.P.M.),62,nutrition,N/A-N/A,Campus-FT
+Mr. Adam Scott,Doctor of Veterinary Medicine (D.V.M.),59,physiotherapy,campus-PT,Campus-PT
+Debbie Smith,Bachelor of Science in Nursing (B.S.N.),100,immunology,online-PT,Online-PT
+Joshua Beasley,Doctor of Optometry (O.D.),69,immunology,online-FT,Online-FT
+Wendy Smith,Bachelor of Science in Biomedical Science (B.S.),59,immunology,campus-N/A,Campus-FT
+Miss Patricia Davis,Doctor of Nursing Practice (D.N.P.),50,None,online-FT,Online-FT
+Daniel Harris,Doctor of Medicine (M.D.),100,surgery,online-N/A,Online-FT
+Daniel Carter,Doctor of Dental Surgery (D.D.S.),70,dentistry,N/A-N/A,Campus-FT
+William Johnson,Master of Health Administration (M.H.A.),67,None,online-N/A,Online-FT
+Kelly Davidson,Master of Public Health (M.P.H.),68,nursing,online-PT,Online-PT
+Evan Brown,Doctor of Dental Surgery (D.D.S.),68,nutrition,N/A-FT,Campus-FT
+Christopher Lloyd,Doctor of Osteopathic Medicine (D.O.),65,immunology,campus-N/A,Campus-FT
+Terrence Kelly,Doctor of Medicine (M.D.),66,nursing,N/A-PT,Campus-PT
+Jenny Ware,Doctor of Dental Surgery (D.D.S.),59,None,campus-FT,Campus-FT
+Bernard Levine,Doctor of Medicine (M.D.),82,dentistry,campus-N/A,Campus-FT
+Kyle Herrera,Doctor of Medicine (M.D.),79,nursing,online-N/A,Online-FT
+Lori Brooks,Master of Health Administration (M.H.A.),80,immunology,online-N/A,Online-FT
+Veronica Castillo,Doctor of Veterinary Medicine (D.V.M.),98,physiotherapy,campus-PT,Campus-PT
+Angela Villegas,Bachelor of Science in Nursing (B.S.N.),99,dentistry,N/A-FT,Campus-FT
+Gregory Wyatt,Doctor of Physical Therapy (D.P.T.),98,physiotherapy,N/A-PT,Campus-PT
+Joseph Hoffman,Doctor of Physical Therapy (D.P.T.),99,immunology,campus-FT,Campus-FT
+David West,Doctor of Physical Therapy (D.P.T.),63,None,campus-N/A,Campus-FT
+Lisa Doyle,Doctor of Podiatric Medicine (D.P.M.),94,surgery,N/A-FT,Campus-FT
+Brent Lawson,Bachelor of Science in Biomedical Science (B.S.),65,physiotherapy,online-N/A,Online-FT
+Sherri Vazquez,Doctor of Chiropractic (D.C.),72,surgery,campus-N/A,Campus-FT
+Justin Brown,Doctor of Podiatric Medicine (D.P.M.),96,physiotherapy,online-N/A,Online-FT
+Joseph Blake,Doctor of Nursing Practice (D.N.P.),94,nutrition,N/A-PT,Campus-PT
+David Lopez,Master of Health Administration (M.H.A.),65,physiotherapy,campus-PT,Campus-PT
+Juan Lopez,Doctor of Optometry (O.D.),79,nursing,N/A-FT,Campus-FT
+Michael Bennett,Bachelor of Science in Biomedical Science (B.S.),98,physiotherapy,online-FT,Online-FT
+Anna Morgan,Master of Health Administration (M.H.A.),58,surgery,campus-N/A,Campus-FT
+Nathan Diaz,Bachelor of Science in Biomedical Science (B.S.),65,physiotherapy,online-FT,Online-FT
+Cheyenne Richards,Master of Public Health (M.P.H.),61,nursing,N/A-PT,Campus-PT
+Ann Livingston,Doctor of Podiatric Medicine (D.P.M.),57,immunology,online-FT,Online-FT
+Matthew Morton,Doctor of Osteopathic Medicine (D.O.),89,dentistry,N/A-FT,Campus-FT
+Maria Roberts,Master of Public Health (M.P.H.),82,dentistry,N/A-N/A,Campus-FT
+Brandi Garcia,Doctor of Dental Medicine (D.M.D.),99,physiotherapy,N/A-N/A,Campus-FT
+Angela Mahoney,Doctor of Dental Medicine (D.M.D.),64,nursing,N/A-N/A,Campus-FT
+Emily Graham,Doctor of Veterinary Medicine (D.V.M.),54,dentistry,online-N/A,Online-FT
+Cindy Le,Doctor of Optometry (O.D.),78,None,online-N/A,Online-FT
+Christopher Fernandez,Master of Public Health (M.P.H.),89,immunology,campus-PT,Campus-PT
+Connie Wright,Doctor of Pharmacy (Pharm.D.),91,None,campus-N/A,Campus-FT
+James Adams,Doctor of Veterinary Medicine (D.V.M.),50,physiotherapy,N/A-FT,Campus-FT
+Ashley Mitchell,Doctor of Nursing Practice (D.N.P.),72,nutrition,online-N/A,Online-FT
+Nicholas Kim Jr.,Doctor of Chiropractic (D.C.),91,nursing,campus-N/A,Campus-FT
+Tricia Meyers,Doctor of Veterinary Medicine (D.V.M.),90,None,campus-FT,Campus-FT
+Zachary Garrett,Doctor of Nursing Practice (D.N.P.),63,nursing,online-N/A,Online-FT
+Debbie Paul,Doctor of Chiropractic (D.C.),64,surgery,N/A-N/A,Campus-FT
+Judith Pena,Bachelor of Science in Biomedical Science (B.S.),94,physiotherapy,campus-FT,Campus-FT
+Charles Harris,Doctor of Osteopathic Medicine (D.O.),88,nutrition,N/A-FT,Campus-FT
+Joseph Evans,Bachelor of Science in Nursing (B.S.N.),93,None,online-PT,Online-PT
+Sarah Young,Doctor of Nursing Practice (D.N.P.),63,None,campus-N/A,Campus-FT
+Kyle Conway,Doctor of Podiatric Medicine (D.P.M.),68,dentistry,online-FT,Online-FT
+Martha Chambers DDS,Doctor of Podiatric Medicine (D.P.M.),92,physiotherapy,campus-PT,Campus-PT
+Robert Rodriguez,Doctor of Physical Therapy (D.P.T.),99,nutrition,online-FT,Online-FT
+Amanda Castro,Doctor of Dental Medicine (D.M.D.),97,immunology,campus-N/A,Campus-FT
+Austin Stone,Doctor of Dental Surgery (D.D.S.),79,physiotherapy,campus-PT,Campus-PT
+Joseph Salazar,Doctor of Nursing Practice (D.N.P.),87,surgery,campus-PT,Campus-PT
+Felicia Williams,Doctor of Medicine (M.D.),73,immunology,online-N/A,Online-FT
+Misty Park DVM,Doctor of Podiatric Medicine (D.P.M.),81,None,online-PT,Online-PT
+Christy Phillips,Bachelor of Science in Biomedical Science (B.S.),80,nutrition,campus-FT,Campus-FT
+Joseph Lowe,Doctor of Medicine (M.D.),91,nutrition,campus-PT,Campus-PT
+Robert Kaufman,Bachelor of Science in Biomedical Science (B.S.),59,dentistry,N/A-N/A,Campus-FT
+Christopher Burnett,Master of Public Health (M.P.H.),93,nutrition,N/A-N/A,Campus-FT
+Caleb Avery,Master of Health Administration (M.H.A.),100,immunology,campus-N/A,Campus-FT
+Curtis Williams,Doctor of Dental Medicine (D.M.D.),52,physiotherapy,online-PT,Online-PT
+Brian Rodriguez,Doctor of Chiropractic (D.C.),56,dentistry,campus-PT,Campus-PT
+Michael Harris,Bachelor of Science in Nursing (B.S.N.),59,surgery,online-FT,Online-FT
+Kayla Moore DDS,Bachelor of Science in Biomedical Science (B.S.),83,dentistry,campus-N/A,Campus-FT
+Samuel Wheeler,Doctor of Osteopathic Medicine (D.O.),94,physiotherapy,campus-FT,Campus-FT
+Jeffery Ray,Doctor of Dental Medicine (D.M.D.),87,physiotherapy,N/A-FT,Campus-FT
+Mary Logan,Doctor of Pharmacy (Pharm.D.),53,immunology,campus-N/A,Campus-FT
+Courtney Hernandez,Master of Public Health (M.P.H.),66,None,campus-PT,Campus-PT
+Mary Montoya,Doctor of Chiropractic (D.C.),67,nursing,online-PT,Online-PT
+Felicia Castillo,Master of Health Administration (M.H.A.),63,nutrition,N/A-FT,Campus-FT
+Nicholas Bruce,Doctor of Nursing Practice (D.N.P.),96,immunology,online-N/A,Online-FT
+Heather Watts,Doctor of Nursing Practice (D.N.P.),98,nutrition,online-FT,Online-FT
+Michael Ramirez,Doctor of Podiatric Medicine (D.P.M.),79,immunology,N/A-N/A,Campus-FT
+Abigail Anderson,Doctor of Medicine (M.D.),57,None,campus-FT,Campus-FT
+Mr. Brad Perkins,Master of Public Health (M.P.H.),63,None,N/A-PT,Campus-PT
+Abigail Moses,Doctor of Veterinary Medicine (D.V.M.),60,surgery,N/A-FT,Campus-FT
+Francis Obrien,Master of Health Administration (M.H.A.),51,immunology,campus-FT,Campus-FT
+William Byrd,Doctor of Podiatric Medicine (D.P.M.),61,None,campus-PT,Campus-PT
+Mr. Kirk Banks,Doctor of Podiatric Medicine (D.P.M.),73,nutrition,campus-PT,Campus-PT
+Ronald Parker,Doctor of Medicine (M.D.),61,nursing,online-FT,Online-FT
+Kathleen Price,Doctor of Dental Surgery (D.D.S.),90,None,campus-FT,Campus-FT
+Sharon Anderson,Doctor of Osteopathic Medicine (D.O.),79,nursing,online-N/A,Online-FT
+Pamela Dawson,Master of Public Health (M.P.H.),81,physiotherapy,N/A-N/A,Campus-FT
+Stephen Phillips,Master of Public Health (M.P.H.),100,dentistry,N/A-PT,Campus-PT
+Mrs. Kayla Taylor MD,Doctor of Pharmacy (Pharm.D.),67,nursing,campus-PT,Campus-PT
+Ann Andrade,Doctor of Nursing Practice (D.N.P.),84,surgery,online-N/A,Online-FT
+Ryan Washington,Doctor of Pharmacy (Pharm.D.),98,nutrition,online-FT,Online-FT
+Ashley Mills,Bachelor of Science in Nursing (B.S.N.),50,dentistry,N/A-PT,Campus-PT
+Brendan Wallace,Doctor of Podiatric Medicine (D.P.M.),70,nutrition,online-FT,Online-FT
+Melissa Hudson,Doctor of Medicine (M.D.),74,surgery,online-N/A,Online-FT
+Marcus George,Doctor of Physical Therapy (D.P.T.),98,surgery,N/A-N/A,Campus-FT
+Michael Harris,Doctor of Podiatric Medicine (D.P.M.),53,None,campus-FT,Campus-FT
+Justin Young,Master of Public Health (M.P.H.),53,surgery,online-FT,Online-FT
+Kristi Hart,Doctor of Medicine (M.D.),75,immunology,N/A-N/A,Campus-FT
+Tim Kent,Doctor of Nursing Practice (D.N.P.),55,nursing,N/A-N/A,Campus-FT
+Michelle Johnson PhD,Doctor of Osteopathic Medicine (D.O.),88,physiotherapy,N/A-PT,Campus-PT
+Kelli Walker,Master of Public Health (M.P.H.),90,surgery,N/A-N/A,Campus-FT
+Morgan Gray,Doctor of Dental Surgery (D.D.S.),60,dentistry,campus-FT,Campus-FT
+Brianna Henry,Doctor of Physical Therapy (D.P.T.),69,dentistry,online-FT,Online-FT
+Kathleen Harrington,Doctor of Nursing Practice (D.N.P.),89,surgery,campus-PT,Campus-PT
+Frederick Blackburn,Doctor of Medicine (M.D.),64,None,online-PT,Online-PT
+Megan Cooper,Doctor of Osteopathic Medicine (D.O.),91,nutrition,campus-FT,Campus-FT
+Tina Rosales,Doctor of Pharmacy (Pharm.D.),70,physiotherapy,online-PT,Online-PT
+William Flores,Bachelor of Science in Biomedical Science (B.S.),73,nutrition,campus-FT,Campus-FT
+Brian Little,Doctor of Podiatric Medicine (D.P.M.),98,physiotherapy,N/A-FT,Campus-FT
+Clayton Herrera,Doctor of Nursing Practice (D.N.P.),69,nursing,N/A-FT,Campus-FT
+Joshua Kennedy,Master of Health Administration (M.H.A.),81,None,campus-FT,Campus-FT
+Christopher Fowler,Doctor of Osteopathic Medicine (D.O.),79,dentistry,online-N/A,Online-FT
+Melissa Jackson,Doctor of Chiropractic (D.C.),64,nutrition,campus-N/A,Campus-FT
+William Hall,Bachelor of Science in Nursing (B.S.N.),77,dentistry,N/A-PT,Campus-PT
+Kyle Smith,Doctor of Osteopathic Medicine (D.O.),62,dentistry,campus-N/A,Campus-FT
+Randall Vasquez,Bachelor of Science in Nursing (B.S.N.),94,nutrition,N/A-N/A,Campus-FT
+Mr. Matthew Bates,Doctor of Optometry (O.D.),68,nutrition,campus-PT,Campus-PT
+Jeremy Bailey,Master of Health Administration (M.H.A.),51,immunology,N/A-N/A,Campus-FT
+Lori Morris,Doctor of Osteopathic Medicine (D.O.),70,dentistry,online-N/A,Online-FT
+Christopher Pineda,Doctor of Dental Medicine (D.M.D.),60,nutrition,online-FT,Online-FT
+Stephanie Wright,Doctor of Veterinary Medicine (D.V.M.),96,nursing,online-FT,Online-FT
+Mathew Martin,Doctor of Podiatric Medicine (D.P.M.),62,nutrition,campus-PT,Campus-PT
+Daniel Beck,Master of Public Health (M.P.H.),82,nursing,campus-N/A,Campus-FT
+Susan Drake,Doctor of Physical Therapy (D.P.T.),79,surgery,N/A-PT,Campus-PT
+Mary Moran,Doctor of Chiropractic (D.C.),99,dentistry,N/A-PT,Campus-PT
+Roy Moore,Doctor of Dental Medicine (D.M.D.),80,immunology,N/A-FT,Campus-FT
+Edward Silva,Doctor of Physical Therapy (D.P.T.),61,dentistry,online-FT,Online-FT
+Victoria Hendricks,Master of Public Health (M.P.H.),52,nutrition,online-PT,Online-PT
+Wendy Garcia,Doctor of Dental Surgery (D.D.S.),89,surgery,campus-PT,Campus-PT
+Brandy Cameron,Bachelor of Science in Biomedical Science (B.S.),55,immunology,N/A-N/A,Campus-FT
+Virginia Chavez,Doctor of Dental Surgery (D.D.S.),87,physiotherapy,N/A-N/A,Campus-FT
+Amber Lopez,Doctor of Medicine (M.D.),93,nutrition,online-PT,Online-PT
+Antonio Moore,Doctor of Dental Surgery (D.D.S.),97,nursing,N/A-PT,Campus-PT
+Allison Young MD,Master of Public Health (M.P.H.),64,nursing,N/A-N/A,Campus-FT
+Phillip Rogers,Bachelor of Science in Biomedical Science (B.S.),52,dentistry,online-FT,Online-FT
+David Warren,Bachelor of Science in Biomedical Science (B.S.),82,dentistry,N/A-FT,Campus-FT
+Charles Carpenter,Doctor of Physical Therapy (D.P.T.),58,surgery,N/A-PT,Campus-PT
+Barbara Thornton,Doctor of Veterinary Medicine (D.V.M.),81,immunology,campus-FT,Campus-FT
+Eric Travis,Doctor of Osteopathic Medicine (D.O.),100,nursing,campus-FT,Campus-FT
+Whitney Jackson,Doctor of Osteopathic Medicine (D.O.),85,immunology,N/A-FT,Campus-FT
+Christopher Rojas,Doctor of Veterinary Medicine (D.V.M.),50,dentistry,N/A-N/A,Campus-FT
+James Brown,Doctor of Veterinary Medicine (D.V.M.),71,surgery,campus-PT,Campus-PT
+Angel Pearson,Master of Health Administration (M.H.A.),57,surgery,campus-N/A,Campus-FT
+Rebekah Greene,Bachelor of Science in Biomedical Science (B.S.),93,physiotherapy,online-FT,Online-FT
+Michelle Banks,Doctor of Optometry (O.D.),88,nursing,N/A-PT,Campus-PT
+Austin Smith,Doctor of Dental Medicine (D.M.D.),87,surgery,online-FT,Online-FT
+David George,Doctor of Osteopathic Medicine (D.O.),98,surgery,N/A-N/A,Campus-FT
+George Espinoza,Doctor of Dental Surgery (D.D.S.),95,nutrition,campus-PT,Campus-PT
+Sara Garcia,Doctor of Pharmacy (Pharm.D.),96,surgery,N/A-PT,Campus-PT
+Samantha Dyer,Doctor of Physical Therapy (D.P.T.),62,None,online-PT,Online-PT
+Andrew Stark,Doctor of Medicine (M.D.),60,physiotherapy,online-N/A,Online-FT
+Debra Coleman,Bachelor of Science in Nursing (B.S.N.),92,physiotherapy,campus-FT,Campus-FT
+Nicole Jenkins,Doctor of Medicine (M.D.),97,None,online-N/A,Online-FT
+Gary Morse,Bachelor of Science in Biomedical Science (B.S.),83,nursing,N/A-N/A,Campus-FT
+Brandon Williams,Doctor of Osteopathic Medicine (D.O.),71,immunology,online-N/A,Online-FT
+David Wilson,Master of Health Administration (M.H.A.),84,nutrition,campus-FT,Campus-FT
+Kevin Booth,Master of Health Administration (M.H.A.),62,nursing,campus-FT,Campus-FT
+Christopher Wise,Doctor of Nursing Practice (D.N.P.),55,surgery,N/A-FT,Campus-FT
+Judy Mueller,Doctor of Physical Therapy (D.P.T.),66,surgery,N/A-N/A,Campus-FT
+John Keller,Doctor of Dental Medicine (D.M.D.),99,dentistry,N/A-FT,Campus-FT
+Diane Smith,Doctor of Dental Medicine (D.M.D.),90,surgery,N/A-PT,Campus-PT
+Ryan Savage,Doctor of Chiropractic (D.C.),51,immunology,campus-FT,Campus-FT
+Patrick Clark,Doctor of Osteopathic Medicine (D.O.),88,immunology,N/A-N/A,Campus-FT
+Beth Patel,Doctor of Osteopathic Medicine (D.O.),76,None,online-FT,Online-FT
+Emily Wright,Doctor of Nursing Practice (D.N.P.),71,physiotherapy,campus-FT,Campus-FT
+Danielle Alvarado,Doctor of Pharmacy (Pharm.D.),71,surgery,online-PT,Online-PT
+Jeremy Berry,Doctor of Chiropractic (D.C.),86,nutrition,N/A-N/A,Campus-FT
+Cathy Phillips,Bachelor of Science in Biomedical Science (B.S.),85,None,N/A-FT,Campus-FT
+Jill Evans,Doctor of Nursing Practice (D.N.P.),95,nutrition,N/A-N/A,Campus-FT
+Brian Gonzales,Doctor of Podiatric Medicine (D.P.M.),75,nursing,N/A-PT,Campus-PT
+Brittany Brown,Master of Public Health (M.P.H.),88,nutrition,campus-N/A,Campus-FT
+Thomas Howell,Master of Public Health (M.P.H.),100,immunology,N/A-N/A,Campus-FT
+Eric Salas,Doctor of Podiatric Medicine (D.P.M.),93,dentistry,campus-PT,Campus-PT
+Robert Jordan,Doctor of Pharmacy (Pharm.D.),98,dentistry,N/A-N/A,Campus-FT
+John Rodriguez,Doctor of Optometry (O.D.),64,None,online-FT,Online-FT
+Joseph Duncan,Doctor of Chiropractic (D.C.),93,immunology,N/A-N/A,Campus-FT
+Raymond Becker,Doctor of Veterinary Medicine (D.V.M.),92,surgery,online-PT,Online-PT
+Alicia Colon,Master of Public Health (M.P.H.),90,nutrition,campus-N/A,Campus-FT
+Brian Soto,Bachelor of Science in Nursing (B.S.N.),84,physiotherapy,N/A-N/A,Campus-FT
+Juan Gomez,Doctor of Veterinary Medicine (D.V.M.),83,surgery,campus-N/A,Campus-FT
+Matthew Ford,Doctor of Dental Medicine (D.M.D.),95,nutrition,campus-FT,Campus-FT
+Gary Brown,Bachelor of Science in Nursing (B.S.N.),90,surgery,N/A-N/A,Campus-FT
+Joel Reed,Doctor of Veterinary Medicine (D.V.M.),75,surgery,N/A-N/A,Campus-FT
+Tina Raymond,Doctor of Physical Therapy (D.P.T.),80,dentistry,online-N/A,Online-FT
+Cindy Barajas,Doctor of Dental Surgery (D.D.S.),82,surgery,online-PT,Online-PT
+Linda Goodman,Doctor of Dental Medicine (D.M.D.),72,dentistry,N/A-FT,Campus-FT
+Lisa Richards,Doctor of Physical Therapy (D.P.T.),61,nutrition,online-FT,Online-FT
+Jason Tran,Doctor of Dental Surgery (D.D.S.),92,dentistry,online-PT,Online-PT
+Karen Shepard,Doctor of Podiatric Medicine (D.P.M.),84,physiotherapy,online-N/A,Online-FT
+Dr. Jennifer Brown,Doctor of Dental Medicine (D.M.D.),87,nursing,campus-FT,Campus-FT
+Joseph Mullins,Doctor of Dental Surgery (D.D.S.),83,dentistry,campus-FT,Campus-FT
+Dustin Ramos MD,Doctor of Physical Therapy (D.P.T.),96,surgery,online-FT,Online-FT
+Karl Baker,Doctor of Pharmacy (Pharm.D.),97,None,N/A-FT,Campus-FT
+Cassidy Freeman,Doctor of Osteopathic Medicine (D.O.),63,physiotherapy,N/A-PT,Campus-PT
+Johnny Villa,Doctor of Chiropractic (D.C.),78,dentistry,campus-PT,Campus-PT
+Amanda Jacobs,Doctor of Physical Therapy (D.P.T.),67,dentistry,campus-N/A,Campus-FT
+Andrew Hull,Doctor of Medicine (M.D.),85,None,online-FT,Online-FT
+Stacy Anderson,Doctor of Podiatric Medicine (D.P.M.),77,dentistry,online-FT,Online-FT
+Gary Rice,Doctor of Optometry (O.D.),64,None,online-N/A,Online-FT
+Jennifer Manning,Doctor of Veterinary Medicine (D.V.M.),76,physiotherapy,online-FT,Online-FT
+John Lee,Doctor of Podiatric Medicine (D.P.M.),62,nursing,N/A-PT,Campus-PT
+Paul Smith,Doctor of Physical Therapy (D.P.T.),98,surgery,online-PT,Online-PT
+Howard Heath,Bachelor of Science in Nursing (B.S.N.),93,dentistry,online-FT,Online-FT
+Duane Green,Doctor of Osteopathic Medicine (D.O.),59,dentistry,N/A-FT,Campus-FT
+Nicole Moore,Doctor of Dental Medicine (D.M.D.),55,physiotherapy,campus-PT,Campus-PT
+Kimberly Johnson,Doctor of Podiatric Medicine (D.P.M.),92,dentistry,campus-N/A,Campus-FT
+Beth Escobar,Doctor of Nursing Practice (D.N.P.),85,None,N/A-PT,Campus-PT
+Derek Miller,Doctor of Dental Medicine (D.M.D.),96,dentistry,online-N/A,Online-FT
+Olivia Oneill,Doctor of Nursing Practice (D.N.P.),98,nursing,online-N/A,Online-FT
+Corey Rivera,Doctor of Dental Medicine (D.M.D.),79,nursing,N/A-PT,Campus-PT
+Wayne Rivera,Doctor of Physical Therapy (D.P.T.),77,immunology,campus-FT,Campus-FT
+Judith Huang,Doctor of Pharmacy (Pharm.D.),69,physiotherapy,campus-N/A,Campus-FT
+Robert Lopez,Doctor of Podiatric Medicine (D.P.M.),85,None,N/A-FT,Campus-FT
+Marcus Wells,Doctor of Pharmacy (Pharm.D.),80,nutrition,online-N/A,Online-FT
+Kristopher Stein MD,Bachelor of Science in Biomedical Science (B.S.),60,None,campus-N/A,Campus-FT
+Valerie Smith,Doctor of Physical Therapy (D.P.T.),63,physiotherapy,N/A-FT,Campus-FT
+Alicia Robinson,Doctor of Medicine (M.D.),63,None,online-PT,Online-PT
+Brittany Mcfarland,Doctor of Dental Medicine (D.M.D.),68,nursing,campus-N/A,Campus-FT
+Melissa Bell,Doctor of Veterinary Medicine (D.V.M.),87,nursing,campus-PT,Campus-PT
+Claire Bautista,Doctor of Dental Surgery (D.D.S.),60,nursing,N/A-FT,Campus-FT
+Jeffrey Nelson,Doctor of Veterinary Medicine (D.V.M.),93,None,online-N/A,Online-FT
+Samantha Thomas,Doctor of Pharmacy (Pharm.D.),72,physiotherapy,campus-N/A,Campus-FT
+Tammy Brown,Doctor of Chiropractic (D.C.),68,dentistry,online-N/A,Online-FT
+Madison Rivera,Doctor of Veterinary Medicine (D.V.M.),68,surgery,N/A-FT,Campus-FT
+Victoria Hernandez,Doctor of Medicine (M.D.),52,immunology,N/A-FT,Campus-FT
+Anthony Khan DVM,Doctor of Chiropractic (D.C.),62,nutrition,campus-N/A,Campus-FT
+Anthony Phillips,Doctor of Physical Therapy (D.P.T.),81,nursing,campus-PT,Campus-PT
+Kimberly Mcdaniel,Master of Health Administration (M.H.A.),57,nursing,online-PT,Online-PT
+Shannon Allen,Bachelor of Science in Nursing (B.S.N.),58,physiotherapy,online-FT,Online-FT
+Morgan Garcia,Doctor of Pharmacy (Pharm.D.),59,surgery,campus-FT,Campus-FT
+Jason Bradley,Master of Public Health (M.P.H.),77,immunology,campus-FT,Campus-FT
+Deborah Schultz,Doctor of Osteopathic Medicine (D.O.),92,dentistry,N/A-PT,Campus-PT
+Sarah Moreno,Doctor of Dental Medicine (D.M.D.),77,surgery,N/A-FT,Campus-FT
+Helen Lynn,Doctor of Physical Therapy (D.P.T.),59,immunology,N/A-N/A,Campus-FT
+Thomas Simmons,Master of Public Health (M.P.H.),90,nutrition,online-FT,Online-FT
+William Bruce,Doctor of Chiropractic (D.C.),77,surgery,N/A-N/A,Campus-FT
+Elizabeth Rodriguez,Master of Public Health (M.P.H.),89,nutrition,N/A-FT,Campus-FT
+Victoria Wallace,Master of Health Administration (M.H.A.),56,surgery,campus-N/A,Campus-FT
+Wanda Gomez,Bachelor of Science in Biomedical Science (B.S.),83,physiotherapy,campus-FT,Campus-FT
+Teresa Foley,Doctor of Chiropractic (D.C.),96,immunology,online-N/A,Online-FT
+Patricia Miller,Doctor of Osteopathic Medicine (D.O.),70,immunology,N/A-PT,Campus-PT
+Michael Nichols,Doctor of Podiatric Medicine (D.P.M.),82,physiotherapy,N/A-FT,Campus-FT
+Regina Ramsey,Doctor of Physical Therapy (D.P.T.),78,nursing,N/A-N/A,Campus-FT
+Anthony Dixon,Doctor of Optometry (O.D.),92,surgery,campus-PT,Campus-PT
+Craig Anthony,Bachelor of Science in Nursing (B.S.N.),64,nursing,campus-FT,Campus-FT
+Angela Crawford,Doctor of Optometry (O.D.),58,nursing,N/A-PT,Campus-PT
+Donald Prince,Doctor of Dental Medicine (D.M.D.),83,physiotherapy,campus-PT,Campus-PT
+Margaret Smith,Doctor of Pharmacy (Pharm.D.),100,nutrition,campus-PT,Campus-PT
+Dustin Cabrera,Doctor of Chiropractic (D.C.),72,physiotherapy,N/A-FT,Campus-FT
+Candice Green,Doctor of Medicine (M.D.),85,nutrition,campus-PT,Campus-PT
+Mary Blanchard,Doctor of Optometry (O.D.),68,physiotherapy,online-FT,Online-FT
+Haley Cantu,Doctor of Physical Therapy (D.P.T.),77,surgery,campus-FT,Campus-FT
+Natalie Vargas,Doctor of Pharmacy (Pharm.D.),55,nursing,online-FT,Online-FT
+Michael Liu,Doctor of Pharmacy (Pharm.D.),62,None,campus-N/A,Campus-FT
+Brandon Miller,Doctor of Veterinary Medicine (D.V.M.),98,surgery,campus-FT,Campus-FT
+Jennifer Gonzalez,Bachelor of Science in Biomedical Science (B.S.),92,nursing,campus-FT,Campus-FT
+Joseph Grant,Doctor of Dental Surgery (D.D.S.),52,physiotherapy,campus-FT,Campus-FT
+Elizabeth Hall,Doctor of Veterinary Medicine (D.V.M.),97,surgery,campus-N/A,Campus-FT
+Suzanne Sanchez,Bachelor of Science in Nursing (B.S.N.),99,immunology,N/A-FT,Campus-FT
+Bobby Lopez,Doctor of Dental Surgery (D.D.S.),84,nutrition,campus-N/A,Campus-FT
+Ray Terry,Master of Public Health (M.P.H.),55,nursing,online-PT,Online-PT
+Jeffery Webb,Doctor of Nursing Practice (D.N.P.),88,dentistry,campus-N/A,Campus-FT
+Robert Palmer,Bachelor of Science in Nursing (B.S.N.),100,surgery,N/A-FT,Campus-FT
+Jill Weiss,Doctor of Dental Medicine (D.M.D.),86,physiotherapy,N/A-FT,Campus-FT
+Amber Freeman,Doctor of Medicine (M.D.),69,dentistry,campus-PT,Campus-PT
+Rebecca Spencer,Doctor of Veterinary Medicine (D.V.M.),80,immunology,campus-N/A,Campus-FT
+Christopher Brady,Doctor of Pharmacy (Pharm.D.),86,nutrition,online-N/A,Online-FT
+Diana Marks,Doctor of Physical Therapy (D.P.T.),62,surgery,N/A-N/A,Campus-FT
+Angela Jones,Doctor of Dental Medicine (D.M.D.),65,nursing,campus-PT,Campus-PT
+Annette Bentley,Master of Health Administration (M.H.A.),81,surgery,campus-PT,Campus-PT
+Toni Hicks,Bachelor of Science in Biomedical Science (B.S.),78,physiotherapy,N/A-N/A,Campus-FT
+Rebecca Trujillo,Doctor of Physical Therapy (D.P.T.),74,immunology,N/A-FT,Campus-FT
+Thomas Johnson,Doctor of Medicine (M.D.),88,None,online-PT,Online-PT
+Christine Gould,Doctor of Chiropractic (D.C.),59,surgery,online-PT,Online-PT
+Danielle Taylor,Bachelor of Science in Biomedical Science (B.S.),54,dentistry,online-PT,Online-PT
+Randall Brown,Doctor of Optometry (O.D.),50,surgery,online-N/A,Online-FT
+Dustin Baker,Bachelor of Science in Biomedical Science (B.S.),61,physiotherapy,N/A-FT,Campus-FT
+Mrs. Amanda Wilson,Doctor of Dental Medicine (D.M.D.),99,nutrition,online-FT,Online-FT
+Jason Vega,Bachelor of Science in Nursing (B.S.N.),86,None,campus-FT,Campus-FT
+Taylor Lopez,Master of Public Health (M.P.H.),86,immunology,online-FT,Online-FT
+Bobby Mcintyre,Bachelor of Science in Nursing (B.S.N.),97,dentistry,online-N/A,Online-FT
+Eric Leonard,Doctor of Chiropractic (D.C.),75,immunology,N/A-PT,Campus-PT
+Gabriel Lane,Master of Public Health (M.P.H.),100,dentistry,N/A-FT,Campus-FT
+Suzanne Perry,Doctor of Nursing Practice (D.N.P.),55,nutrition,online-FT,Online-FT
+Jeffrey Clark,Bachelor of Science in Biomedical Science (B.S.),60,dentistry,N/A-PT,Campus-PT
+Holly Scott,Doctor of Nursing Practice (D.N.P.),86,surgery,N/A-FT,Campus-FT
+Duane Smith,Doctor of Podiatric Medicine (D.P.M.),67,nursing,online-N/A,Online-FT
+Kimberly Carrillo,Doctor of Nursing Practice (D.N.P.),55,surgery,campus-PT,Campus-PT
+Ronald Dickerson,Doctor of Nursing Practice (D.N.P.),55,None,campus-FT,Campus-FT
+Brenda Bowers,Master of Public Health (M.P.H.),67,dentistry,online-FT,Online-FT
+Alexis Hall,Bachelor of Science in Biomedical Science (B.S.),50,surgery,campus-FT,Campus-FT
+Jonathan Moore,Bachelor of Science in Biomedical Science (B.S.),70,physiotherapy,N/A-PT,Campus-PT
+Kaylee Peters,Doctor of Medicine (M.D.),56,nursing,campus-N/A,Campus-FT
+Alexandra Lopez,Doctor of Nursing Practice (D.N.P.),78,None,campus-PT,Campus-PT
+Laurie Simmons,Doctor of Pharmacy (Pharm.D.),84,immunology,online-PT,Online-PT
+Jennifer Clarke,Doctor of Podiatric Medicine (D.P.M.),84,None,N/A-FT,Campus-FT
+Christopher Holt,Doctor of Dental Surgery (D.D.S.),92,None,N/A-PT,Campus-PT
+Jack Randall,Doctor of Physical Therapy (D.P.T.),72,nursing,N/A-PT,Campus-PT
+Briana Serrano,Master of Health Administration (M.H.A.),53,immunology,online-N/A,Online-FT
+Frank Rodriguez,Doctor of Nursing Practice (D.N.P.),79,dentistry,online-N/A,Online-FT
+Brady Collins,Doctor of Dental Medicine (D.M.D.),59,None,online-FT,Online-FT
+Jeremy Logan,Doctor of Podiatric Medicine (D.P.M.),75,surgery,online-PT,Online-PT
+Mrs. Colleen Sanders MD,Master of Health Administration (M.H.A.),79,None,campus-PT,Campus-PT
+Dennis Jones,Doctor of Nursing Practice (D.N.P.),58,immunology,N/A-PT,Campus-PT
+Ray Carrillo,Doctor of Osteopathic Medicine (D.O.),70,None,campus-N/A,Campus-FT
+Jennifer Hayes,Doctor of Nursing Practice (D.N.P.),100,physiotherapy,campus-N/A,Campus-FT
+John Rowe,Bachelor of Science in Nursing (B.S.N.),91,nursing,online-FT,Online-FT
+Samantha Archer,Doctor of Veterinary Medicine (D.V.M.),87,nutrition,campus-FT,Campus-FT
+George Kelley,Bachelor of Science in Nursing (B.S.N.),95,immunology,online-N/A,Online-FT
+Sarah Clayton,Doctor of Medicine (M.D.),63,nutrition,campus-N/A,Campus-FT
+Bethany Coleman,Doctor of Osteopathic Medicine (D.O.),89,None,N/A-N/A,Campus-FT
+Stacey Ramirez,Doctor of Nursing Practice (D.N.P.),96,physiotherapy,online-FT,Online-FT
+Bradley Brooks,Doctor of Veterinary Medicine (D.V.M.),57,nursing,campus-FT,Campus-FT
+Emily James,Master of Public Health (M.P.H.),90,nursing,N/A-N/A,Campus-FT
+Jennifer Harper,Doctor of Nursing Practice (D.N.P.),62,surgery,campus-FT,Campus-FT
+Joseph Ramirez,Doctor of Pharmacy (Pharm.D.),63,immunology,N/A-N/A,Campus-FT
+Deborah Williams,Master of Health Administration (M.H.A.),87,None,N/A-FT,Campus-FT
+Matthew Tate,Doctor of Optometry (O.D.),57,nutrition,N/A-PT,Campus-PT
+Douglas Newman,Doctor of Nursing Practice (D.N.P.),91,surgery,campus-PT,Campus-PT
+Rebecca Jackson,Doctor of Optometry (O.D.),53,immunology,online-FT,Online-FT
+Eric Frost Jr.,Master of Health Administration (M.H.A.),52,physiotherapy,online-N/A,Online-FT
+Rachel English,Doctor of Optometry (O.D.),77,dentistry,online-PT,Online-PT
+Janet Sanchez,Doctor of Osteopathic Medicine (D.O.),90,nursing,N/A-PT,Campus-PT
+Amy Robertson,Bachelor of Science in Biomedical Science (B.S.),93,nursing,campus-FT,Campus-FT
+Kathryn Edwards,Doctor of Osteopathic Medicine (D.O.),90,None,campus-N/A,Campus-FT
+Dr. Christine Higgins,Master of Public Health (M.P.H.),53,immunology,campus-FT,Campus-FT
+Kristin Houston,Doctor of Chiropractic (D.C.),53,nursing,campus-N/A,Campus-FT
+Christine Price,Doctor of Veterinary Medicine (D.V.M.),61,dentistry,online-N/A,Online-FT
+Ryan Roberts,Doctor of Veterinary Medicine (D.V.M.),71,surgery,campus-PT,Campus-PT
+Dillon Harris,Master of Health Administration (M.H.A.),91,immunology,campus-FT,Campus-FT
+Tina Cervantes,Doctor of Dental Surgery (D.D.S.),54,physiotherapy,online-FT,Online-FT
+Margaret Lopez,Doctor of Veterinary Medicine (D.V.M.),52,immunology,online-FT,Online-FT
+Timothy Smith,Doctor of Dental Medicine (D.M.D.),69,immunology,campus-FT,Campus-FT
+Eileen Harris,Master of Public Health (M.P.H.),67,surgery,campus-PT,Campus-PT
+Donna Alvarez,Doctor of Medicine (M.D.),54,physiotherapy,online-FT,Online-FT
+Mark Miller,Doctor of Veterinary Medicine (D.V.M.),97,dentistry,N/A-PT,Campus-PT
+Carla Arnold,Doctor of Osteopathic Medicine (D.O.),79,immunology,N/A-PT,Campus-PT
+Dawn Mckee MD,Doctor of Optometry (O.D.),71,None,campus-PT,Campus-PT
+Jessica Blake,Doctor of Veterinary Medicine (D.V.M.),65,surgery,online-PT,Online-PT
+Steve Smith,Bachelor of Science in Nursing (B.S.N.),97,nursing,online-FT,Online-FT
+Christy Miller,Doctor of Osteopathic Medicine (D.O.),84,None,campus-FT,Campus-FT
+Samantha White,Doctor of Optometry (O.D.),93,physiotherapy,online-PT,Online-PT
+Lisa Klein,Doctor of Podiatric Medicine (D.P.M.),78,nursing,campus-PT,Campus-PT
+Steven Choi,Doctor of Optometry (O.D.),58,None,N/A-FT,Campus-FT
+Crystal Garcia,Doctor of Chiropractic (D.C.),72,dentistry,online-PT,Online-PT
+Robert Smith,Doctor of Physical Therapy (D.P.T.),75,surgery,online-N/A,Online-FT
+Dana Haley,Doctor of Osteopathic Medicine (D.O.),66,dentistry,campus-PT,Campus-PT
+Derek Caldwell,Bachelor of Science in Biomedical Science (B.S.),53,dentistry,online-N/A,Online-FT
+Chad Ramirez,Doctor of Podiatric Medicine (D.P.M.),64,physiotherapy,campus-N/A,Campus-FT
+Nicholas Vasquez,Doctor of Dental Medicine (D.M.D.),81,immunology,campus-PT,Campus-PT
+Paul Castillo,Doctor of Optometry (O.D.),67,nutrition,campus-FT,Campus-FT
+Tracy Walker,Doctor of Dental Medicine (D.M.D.),96,immunology,online-N/A,Online-FT
+Jonathan Harris,Doctor of Medicine (M.D.),89,surgery,online-PT,Online-PT
+Rebekah Moore,Doctor of Nursing Practice (D.N.P.),90,nursing,campus-PT,Campus-PT
+Heidi Dillon,Doctor of Veterinary Medicine (D.V.M.),97,None,online-FT,Online-FT
+Linda Vasquez,Doctor of Veterinary Medicine (D.V.M.),76,dentistry,online-FT,Online-FT
+John Landry,Master of Health Administration (M.H.A.),93,surgery,campus-FT,Campus-FT
+Maria Peck,Bachelor of Science in Nursing (B.S.N.),80,immunology,online-N/A,Online-FT
+Thomas Johnson,Bachelor of Science in Nursing (B.S.N.),57,surgery,online-PT,Online-PT
+Jeffrey Holland,Bachelor of Science in Nursing (B.S.N.),89,immunology,campus-FT,Campus-FT
+Wanda Stewart,Doctor of Osteopathic Medicine (D.O.),60,immunology,online-FT,Online-FT
+Lisa Fox,Master of Health Administration (M.H.A.),76,nursing,N/A-FT,Campus-FT
+Christopher Rodgers,Doctor of Dental Medicine (D.M.D.),99,nutrition,campus-FT,Campus-FT
+Jason Jones,Doctor of Physical Therapy (D.P.T.),100,nursing,N/A-FT,Campus-FT
+Angela Perez,Doctor of Pharmacy (Pharm.D.),96,immunology,N/A-FT,Campus-FT
+Christina Mitchell,Master of Health Administration (M.H.A.),51,physiotherapy,campus-FT,Campus-FT
+Cynthia Smith,Doctor of Nursing Practice (D.N.P.),96,nursing,campus-N/A,Campus-FT
+Kimberly Le,Doctor of Optometry (O.D.),92,nursing,online-PT,Online-PT
+Ryan Humphrey,Doctor of Chiropractic (D.C.),92,nutrition,online-FT,Online-FT
+Ryan Young,Doctor of Medicine (M.D.),82,None,N/A-PT,Campus-PT
+Kelly White,Master of Health Administration (M.H.A.),93,surgery,campus-PT,Campus-PT
+Jacob Peterson,Bachelor of Science in Nursing (B.S.N.),53,nutrition,online-N/A,Online-FT
+Tyler Johnson,Doctor of Optometry (O.D.),61,immunology,N/A-PT,Campus-PT
+Timothy Miranda,Doctor of Dental Medicine (D.M.D.),84,nursing,online-FT,Online-FT
+Jennifer Wolf,Doctor of Veterinary Medicine (D.V.M.),60,nursing,N/A-FT,Campus-FT
+Gabrielle Hall,Doctor of Physical Therapy (D.P.T.),92,physiotherapy,online-FT,Online-FT
+Alexandra Preston,Bachelor of Science in Nursing (B.S.N.),66,nursing,N/A-FT,Campus-FT
+Wendy Nguyen,Doctor of Osteopathic Medicine (D.O.),51,None,N/A-N/A,Campus-FT
+Victor Holland,Master of Health Administration (M.H.A.),69,physiotherapy,N/A-FT,Campus-FT
+Eric Knight,Doctor of Nursing Practice (D.N.P.),74,immunology,campus-PT,Campus-PT
+Leslie Watts,Doctor of Podiatric Medicine (D.P.M.),62,physiotherapy,N/A-N/A,Campus-FT
+Christine Porter,Master of Health Administration (M.H.A.),68,physiotherapy,campus-FT,Campus-FT
+Anita Ramirez,Doctor of Osteopathic Medicine (D.O.),53,nutrition,N/A-FT,Campus-FT
+Nathan Jackson,Doctor of Podiatric Medicine (D.P.M.),80,immunology,online-FT,Online-FT
+Peter Lee,Bachelor of Science in Biomedical Science (B.S.),64,surgery,online-N/A,Online-FT
+Robert Ford,Master of Health Administration (M.H.A.),53,surgery,N/A-N/A,Campus-FT
+Stephanie Bridges,Doctor of Optometry (O.D.),63,nutrition,N/A-N/A,Campus-FT
+Darius Wolfe,Bachelor of Science in Nursing (B.S.N.),88,physiotherapy,N/A-N/A,Campus-FT
+Jamie Maldonado,Doctor of Chiropractic (D.C.),86,dentistry,N/A-FT,Campus-FT
+Martin Benson,Doctor of Dental Surgery (D.D.S.),86,physiotherapy,campus-FT,Campus-FT
+Wendy Jordan,Doctor of Dental Medicine (D.M.D.),53,nutrition,online-FT,Online-FT
+Carrie Pena,Doctor of Podiatric Medicine (D.P.M.),76,None,N/A-N/A,Campus-FT
+Patricia Stafford,Master of Public Health (M.P.H.),89,physiotherapy,online-N/A,Online-FT
+Ms. Stephanie Crosby,Doctor of Physical Therapy (D.P.T.),61,dentistry,N/A-N/A,Campus-FT
+Lisa Alvarado,Doctor of Chiropractic (D.C.),93,immunology,N/A-PT,Campus-PT
+Stacey Vasquez,Master of Health Administration (M.H.A.),72,physiotherapy,N/A-PT,Campus-PT
+Kelsey Harrison,Master of Public Health (M.P.H.),87,dentistry,online-N/A,Online-FT
+Jacob Dalton,Bachelor of Science in Nursing (B.S.N.),69,surgery,campus-PT,Campus-PT
+Michael Smith,Master of Public Health (M.P.H.),87,immunology,N/A-FT,Campus-FT
+Jessica Lopez,Doctor of Medicine (M.D.),92,surgery,N/A-FT,Campus-FT
+Laura Mercado,Doctor of Chiropractic (D.C.),55,nutrition,campus-N/A,Campus-FT
+Sharon Miller,Doctor of Veterinary Medicine (D.V.M.),81,physiotherapy,online-N/A,Online-FT
+Melanie Peterson,Doctor of Pharmacy (Pharm.D.),81,surgery,campus-FT,Campus-FT
+Samantha Payne,Doctor of Dental Medicine (D.M.D.),70,None,N/A-FT,Campus-FT
+Jonathan Walker,Doctor of Dental Medicine (D.M.D.),79,None,campus-PT,Campus-PT
+Deanna Richardson,Doctor of Optometry (O.D.),54,surgery,online-N/A,Online-FT
+Maria Guzman,Doctor of Dental Medicine (D.M.D.),53,nutrition,online-N/A,Online-FT
+Tracy Martinez,Doctor of Chiropractic (D.C.),100,nursing,campus-FT,Campus-FT
+Heather Holloway,Bachelor of Science in Nursing (B.S.N.),82,nursing,campus-N/A,Campus-FT
+Steven Whitney,Doctor of Veterinary Medicine (D.V.M.),99,None,campus-N/A,Campus-FT
+Scott Garcia,Doctor of Osteopathic Medicine (D.O.),66,nursing,online-N/A,Online-FT
+Joann Franklin,Doctor of Dental Medicine (D.M.D.),84,surgery,online-PT,Online-PT
+Jennifer Williams,Doctor of Optometry (O.D.),78,physiotherapy,online-N/A,Online-FT
+Jaclyn Gonzalez,Master of Public Health (M.P.H.),100,immunology,campus-N/A,Campus-FT
+Ian Hill,Bachelor of Science in Nursing (B.S.N.),66,surgery,campus-N/A,Campus-FT
+Joseph Mack,Doctor of Dental Surgery (D.D.S.),72,dentistry,campus-FT,Campus-FT
+Amber Hess,Doctor of Veterinary Medicine (D.V.M.),69,physiotherapy,N/A-FT,Campus-FT
+Ashley Moore,Bachelor of Science in Biomedical Science (B.S.),88,physiotherapy,online-PT,Online-PT
+Jennifer Howard,Master of Health Administration (M.H.A.),56,dentistry,campus-N/A,Campus-FT
+Mark Buchanan,Doctor of Nursing Practice (D.N.P.),60,dentistry,N/A-FT,Campus-FT
+Daniel Hall,Doctor of Podiatric Medicine (D.P.M.),92,dentistry,online-N/A,Online-FT
+Luis Richardson,Bachelor of Science in Nursing (B.S.N.),59,physiotherapy,online-PT,Online-PT
+Keith Santos,Doctor of Osteopathic Medicine (D.O.),94,None,online-PT,Online-PT
+Douglas Taylor,Doctor of Dental Medicine (D.M.D.),89,surgery,campus-N/A,Campus-FT
+Marvin Higgins,Bachelor of Science in Biomedical Science (B.S.),85,nursing,N/A-FT,Campus-FT
+Kathryn Caldwell,Doctor of Chiropractic (D.C.),100,physiotherapy,campus-N/A,Campus-FT
+Laura Hanson,Doctor of Nursing Practice (D.N.P.),55,surgery,campus-FT,Campus-FT
+Kathleen Peters,Doctor of Chiropractic (D.C.),90,dentistry,N/A-PT,Campus-PT
+Jack Hull,Doctor of Dental Surgery (D.D.S.),60,physiotherapy,N/A-FT,Campus-FT
+Virginia Allen,Doctor of Nursing Practice (D.N.P.),59,immunology,online-N/A,Online-FT
+Matthew Cervantes,Doctor of Dental Surgery (D.D.S.),88,nursing,online-FT,Online-FT
+Sally Lee,Bachelor of Science in Nursing (B.S.N.),87,nutrition,campus-FT,Campus-FT
+Laura Marshall,Bachelor of Science in Nursing (B.S.N.),51,None,campus-PT,Campus-PT
+Richard Richardson,Doctor of Dental Surgery (D.D.S.),92,dentistry,online-PT,Online-PT
+Daniel Turner,Doctor of Physical Therapy (D.P.T.),99,physiotherapy,online-N/A,Online-FT
+Amy Evans,Master of Health Administration (M.H.A.),73,dentistry,online-FT,Online-FT
+Tiffany Santiago,Master of Health Administration (M.H.A.),66,nursing,N/A-PT,Campus-PT
+Edward Perkins,Doctor of Podiatric Medicine (D.P.M.),92,surgery,N/A-PT,Campus-PT
+Dr. Kathleen Miller DVM,Doctor of Dental Surgery (D.D.S.),98,nutrition,online-FT,Online-FT
+Derrick Sanchez,Bachelor of Science in Biomedical Science (B.S.),54,nutrition,campus-N/A,Campus-FT
+Dalton Taylor,Doctor of Chiropractic (D.C.),96,dentistry,campus-N/A,Campus-FT
+Elizabeth Tanner,Doctor of Osteopathic Medicine (D.O.),91,nursing,N/A-FT,Campus-FT
+Ann Robles,Doctor of Medicine (M.D.),54,nutrition,online-PT,Online-PT
+Amber Daniels,Doctor of Nursing Practice (D.N.P.),65,nutrition,online-N/A,Online-FT
+Crystal Cortez,Bachelor of Science in Nursing (B.S.N.),88,nutrition,campus-FT,Campus-FT
+Christopher Ryan,Doctor of Nursing Practice (D.N.P.),60,nutrition,campus-N/A,Campus-FT
+Kelsey Wilson,Doctor of Osteopathic Medicine (D.O.),85,None,N/A-FT,Campus-FT
+James Burch,Doctor of Osteopathic Medicine (D.O.),60,None,campus-FT,Campus-FT
+David Li,Doctor of Pharmacy (Pharm.D.),55,nutrition,online-N/A,Online-FT
+Bridget Robbins,Doctor of Pharmacy (Pharm.D.),85,physiotherapy,campus-N/A,Campus-FT
+Jacob Smith,Doctor of Osteopathic Medicine (D.O.),60,dentistry,N/A-N/A,Campus-FT
+Christopher Owens,Doctor of Podiatric Medicine (D.P.M.),50,immunology,N/A-N/A,Campus-FT
+Courtney Robinson,Doctor of Podiatric Medicine (D.P.M.),58,dentistry,campus-N/A,Campus-FT
+Michael Lucas,Doctor of Medicine (M.D.),85,nutrition,N/A-N/A,Campus-FT
+Michael Bowen,Doctor of Physical Therapy (D.P.T.),75,nutrition,campus-PT,Campus-PT
+James Hanson,Doctor of Veterinary Medicine (D.V.M.),65,surgery,N/A-PT,Campus-PT
+Jessica Aguilar,Master of Public Health (M.P.H.),91,nursing,campus-PT,Campus-PT
+Alexander Morales,Doctor of Medicine (M.D.),81,physiotherapy,campus-FT,Campus-FT
+James Sloan,Doctor of Podiatric Medicine (D.P.M.),92,nutrition,campus-FT,Campus-FT
+Virginia Chavez,Doctor of Podiatric Medicine (D.P.M.),82,immunology,online-FT,Online-FT
+Samantha Brown,Doctor of Osteopathic Medicine (D.O.),57,nutrition,N/A-FT,Campus-FT
+Maria Summers,Doctor of Dental Surgery (D.D.S.),89,surgery,online-FT,Online-FT
+Patrick Reid,Doctor of Osteopathic Medicine (D.O.),74,surgery,N/A-PT,Campus-PT
+Erin Macdonald,Bachelor of Science in Nursing (B.S.N.),59,nutrition,campus-N/A,Campus-FT
+Carol Medina,Doctor of Pharmacy (Pharm.D.),73,None,campus-N/A,Campus-FT
+Carl Henry,Doctor of Medicine (M.D.),94,nursing,campus-FT,Campus-FT
+Rebecca Moreno,Doctor of Pharmacy (Pharm.D.),84,surgery,N/A-FT,Campus-FT
+Laura Delacruz,Doctor of Dental Surgery (D.D.S.),73,dentistry,campus-N/A,Campus-FT
+Donna Johnson,Doctor of Osteopathic Medicine (D.O.),72,None,online-PT,Online-PT
+Margaret Scott,Doctor of Osteopathic Medicine (D.O.),86,physiotherapy,N/A-PT,Campus-PT
+Ryan Turner,Doctor of Nursing Practice (D.N.P.),76,nutrition,N/A-PT,Campus-PT
+Erik Sullivan,Doctor of Dental Medicine (D.M.D.),84,nutrition,online-PT,Online-PT
+Alyssa West,Doctor of Podiatric Medicine (D.P.M.),52,physiotherapy,N/A-PT,Campus-PT
+Christopher Phillips DDS,Doctor of Pharmacy (Pharm.D.),77,None,N/A-FT,Campus-FT
+Ryan Haynes,Doctor of Podiatric Medicine (D.P.M.),77,surgery,campus-FT,Campus-FT
+Katrina Collins,Doctor of Dental Surgery (D.D.S.),75,physiotherapy,campus-PT,Campus-PT
+Jeremy Nunez,Doctor of Chiropractic (D.C.),50,immunology,campus-FT,Campus-FT
+Wyatt Livingston,Master of Health Administration (M.H.A.),76,nursing,campus-N/A,Campus-FT
+Dr. Ruben Wilson,Bachelor of Science in Nursing (B.S.N.),76,nutrition,online-N/A,Online-FT
+Courtney Williams,Master of Public Health (M.P.H.),60,None,campus-N/A,Campus-FT
+Melissa Alvarez,Master of Public Health (M.P.H.),97,physiotherapy,online-PT,Online-PT
+Corey Hernandez,Doctor of Physical Therapy (D.P.T.),80,nursing,campus-N/A,Campus-FT
+Susan King,Master of Public Health (M.P.H.),93,physiotherapy,online-PT,Online-PT
+Denise Peterson,Doctor of Dental Surgery (D.D.S.),91,nutrition,online-N/A,Online-FT
+Abigail Taylor,Doctor of Pharmacy (Pharm.D.),52,surgery,online-N/A,Online-FT
+Daniel Phillips,Doctor of Podiatric Medicine (D.P.M.),53,physiotherapy,N/A-N/A,Campus-FT
+Danny Orr,Doctor of Osteopathic Medicine (D.O.),56,physiotherapy,N/A-N/A,Campus-FT
+Matthew Little,Doctor of Nursing Practice (D.N.P.),94,immunology,campus-PT,Campus-PT
+Tyler Pena,Master of Public Health (M.P.H.),71,physiotherapy,campus-FT,Campus-FT
+Sharon Cruz,Doctor of Dental Surgery (D.D.S.),75,immunology,campus-FT,Campus-FT
+Elizabeth King,Doctor of Chiropractic (D.C.),52,nutrition,campus-FT,Campus-FT
+Carrie Bridges,Doctor of Dental Surgery (D.D.S.),58,immunology,online-PT,Online-PT
+Christopher Gonzalez,Bachelor of Science in Nursing (B.S.N.),72,dentistry,N/A-N/A,Campus-FT
+Jonathan Randolph,Doctor of Nursing Practice (D.N.P.),86,immunology,campus-N/A,Campus-FT
+Katrina Spencer,Doctor of Osteopathic Medicine (D.O.),83,nursing,online-PT,Online-PT
+Steve Lee,Doctor of Dental Surgery (D.D.S.),99,physiotherapy,campus-FT,Campus-FT
+Miguel Gamble,Doctor of Dental Surgery (D.D.S.),69,surgery,online-FT,Online-FT
+Brandon Hughes,Doctor of Medicine (M.D.),89,physiotherapy,online-FT,Online-FT
+John Cunningham,Doctor of Podiatric Medicine (D.P.M.),98,surgery,N/A-N/A,Campus-FT
+Kristi Castaneda,Master of Public Health (M.P.H.),99,None,online-FT,Online-FT
+Allison Horne,Doctor of Nursing Practice (D.N.P.),86,immunology,N/A-FT,Campus-FT
+William Powell,Doctor of Podiatric Medicine (D.P.M.),84,immunology,N/A-FT,Campus-FT
+Vincent Sullivan,Doctor of Chiropractic (D.C.),83,dentistry,N/A-FT,Campus-FT
+David Russell,Doctor of Nursing Practice (D.N.P.),65,physiotherapy,campus-FT,Campus-FT
+Michael Bailey,Doctor of Optometry (O.D.),80,nursing,N/A-PT,Campus-PT
+James Weaver PhD,Doctor of Nursing Practice (D.N.P.),92,physiotherapy,online-FT,Online-FT
+Kevin Williams,Doctor of Pharmacy (Pharm.D.),80,physiotherapy,online-FT,Online-FT
+Christine Perkins,Doctor of Pharmacy (Pharm.D.),90,physiotherapy,N/A-FT,Campus-FT
+Jake Joseph,Doctor of Dental Medicine (D.M.D.),82,dentistry,online-FT,Online-FT
+Andrea Smith,Doctor of Podiatric Medicine (D.P.M.),71,surgery,N/A-N/A,Campus-FT
+Alexander Brown,Master of Health Administration (M.H.A.),64,surgery,N/A-PT,Campus-PT
+Lori Wagner,Doctor of Dental Medicine (D.M.D.),59,surgery,online-FT,Online-FT
+Nicholas Collier,Doctor of Dental Surgery (D.D.S.),91,immunology,N/A-N/A,Campus-FT
+Nicholas Miller,Doctor of Podiatric Medicine (D.P.M.),91,nursing,online-N/A,Online-FT
+Douglas Hernandez,Doctor of Veterinary Medicine (D.V.M.),74,surgery,campus-FT,Campus-FT
+Sandra Moore,Bachelor of Science in Nursing (B.S.N.),52,physiotherapy,N/A-N/A,Campus-FT
+Ashley Jackson,Doctor of Nursing Practice (D.N.P.),84,surgery,online-FT,Online-FT
+Veronica Kline,Master of Public Health (M.P.H.),54,nutrition,campus-FT,Campus-FT
+David Beard,Doctor of Dental Surgery (D.D.S.),73,None,online-PT,Online-PT
+Duane Hoffman,Doctor of Dental Surgery (D.D.S.),53,nutrition,N/A-PT,Campus-PT
+Walter Brown,Doctor of Optometry (O.D.),80,immunology,online-PT,Online-PT
+Hannah Sampson,Master of Health Administration (M.H.A.),79,dentistry,campus-N/A,Campus-FT
+Desiree Wright,Doctor of Dental Medicine (D.M.D.),85,surgery,N/A-N/A,Campus-FT
+Daniel Sheppard,Doctor of Dental Medicine (D.M.D.),79,nutrition,online-PT,Online-PT
+Victoria Hanson,Doctor of Veterinary Medicine (D.V.M.),61,nutrition,N/A-PT,Campus-PT
+Michael Williams,Master of Health Administration (M.H.A.),95,nursing,campus-PT,Campus-PT
+Allen Dunn,Doctor of Chiropractic (D.C.),55,immunology,N/A-PT,Campus-PT
+Jeffery Parker,Doctor of Physical Therapy (D.P.T.),59,None,campus-PT,Campus-PT
+Sandra Wilson,Master of Health Administration (M.H.A.),89,None,campus-FT,Campus-FT
+Carol Gallagher,Doctor of Osteopathic Medicine (D.O.),92,immunology,N/A-PT,Campus-PT
+Michael Turner,Doctor of Dental Medicine (D.M.D.),97,nutrition,online-FT,Online-FT
+Ryan Patrick,Doctor of Veterinary Medicine (D.V.M.),50,surgery,online-N/A,Online-FT
+Adam Wagner,Doctor of Chiropractic (D.C.),53,nursing,online-PT,Online-PT
+Nathaniel Cruz,Doctor of Medicine (M.D.),66,surgery,online-N/A,Online-FT
+Jason Wiggins DVM,Doctor of Dental Medicine (D.M.D.),71,nutrition,campus-FT,Campus-FT
+Rachel Freeman,Doctor of Medicine (M.D.),60,dentistry,online-PT,Online-PT
+Destiny Banks,Doctor of Chiropractic (D.C.),69,physiotherapy,campus-PT,Campus-PT
+Michael Charles,Doctor of Pharmacy (Pharm.D.),60,nursing,campus-PT,Campus-PT
+Matthew Townsend,Doctor of Physical Therapy (D.P.T.),53,immunology,online-N/A,Online-FT
+Stephen Watson,Doctor of Nursing Practice (D.N.P.),99,surgery,campus-N/A,Campus-FT
+Robert Simon,Doctor of Medicine (M.D.),98,immunology,online-FT,Online-FT
+James Gregory,Doctor of Podiatric Medicine (D.P.M.),51,dentistry,campus-FT,Campus-FT
+Bethany Robertson,Doctor of Chiropractic (D.C.),64,immunology,campus-FT,Campus-FT
+Amanda Suarez,Doctor of Chiropractic (D.C.),58,surgery,N/A-FT,Campus-FT
+Trevor Maxwell,Master of Health Administration (M.H.A.),53,physiotherapy,N/A-PT,Campus-PT
+Misty Molina,Doctor of Chiropractic (D.C.),69,immunology,online-PT,Online-PT
+Pamela Sellers,Doctor of Optometry (O.D.),95,nutrition,online-FT,Online-FT
+Daniel Davis,Doctor of Nursing Practice (D.N.P.),87,dentistry,N/A-FT,Campus-FT
+Elizabeth Daugherty,Doctor of Chiropractic (D.C.),59,None,N/A-PT,Campus-PT
+Tina Young,Doctor of Podiatric Medicine (D.P.M.),68,immunology,N/A-PT,Campus-PT
+Jeremy Weber,Doctor of Dental Medicine (D.M.D.),64,None,online-N/A,Online-FT
+Frederick Hale,Doctor of Nursing Practice (D.N.P.),50,surgery,online-FT,Online-FT
+Richard Williams,Doctor of Osteopathic Medicine (D.O.),68,nursing,N/A-N/A,Campus-FT
+Jacob Benitez,Doctor of Medicine (M.D.),95,physiotherapy,N/A-FT,Campus-FT
+Jenny Harris,Doctor of Physical Therapy (D.P.T.),86,surgery,campus-N/A,Campus-FT
+Bryan Browning,Doctor of Dental Surgery (D.D.S.),99,dentistry,N/A-PT,Campus-PT
+Christine Jackson,Doctor of Pharmacy (Pharm.D.),97,immunology,online-N/A,Online-FT
+Shirley Mckenzie,Doctor of Veterinary Medicine (D.V.M.),93,nutrition,N/A-FT,Campus-FT
+John Jenkins,Doctor of Optometry (O.D.),98,nutrition,N/A-N/A,Campus-FT
+Denise Gonzalez,Doctor of Veterinary Medicine (D.V.M.),88,None,N/A-PT,Campus-PT
+Michael Henderson,Doctor of Pharmacy (Pharm.D.),75,None,campus-N/A,Campus-FT
+Mr. Bryan Alexander,Doctor of Dental Medicine (D.M.D.),81,nutrition,campus-FT,Campus-FT
+Mark Alexander,Doctor of Optometry (O.D.),98,None,online-FT,Online-FT
+Sean Rice,Master of Public Health (M.P.H.),65,immunology,campus-N/A,Campus-FT
+Robert Callahan,Doctor of Nursing Practice (D.N.P.),65,surgery,N/A-PT,Campus-PT
+Tyler Mason,Doctor of Chiropractic (D.C.),96,nutrition,campus-N/A,Campus-FT
+Matthew Wilson,Doctor of Podiatric Medicine (D.P.M.),65,immunology,N/A-FT,Campus-FT
+Maria Myers,Master of Health Administration (M.H.A.),60,nutrition,campus-N/A,Campus-FT
+Tonya Gardner,Doctor of Osteopathic Medicine (D.O.),53,surgery,campus-N/A,Campus-FT
+Rebecca Richardson,Doctor of Osteopathic Medicine (D.O.),70,None,online-FT,Online-FT
+Vanessa Young,Doctor of Physical Therapy (D.P.T.),73,physiotherapy,N/A-PT,Campus-PT
+Susan Chang,Doctor of Nursing Practice (D.N.P.),73,immunology,online-PT,Online-PT
+Jesus Weeks,Doctor of Dental Surgery (D.D.S.),56,dentistry,N/A-PT,Campus-PT
+Joseph Smith,Doctor of Physical Therapy (D.P.T.),66,nursing,online-N/A,Online-FT
+Ashley Duncan,Doctor of Dental Medicine (D.M.D.),58,dentistry,N/A-PT,Campus-PT
+Veronica Frost,Doctor of Veterinary Medicine (D.V.M.),73,nutrition,online-FT,Online-FT
+Michele Jordan,Doctor of Veterinary Medicine (D.V.M.),96,nutrition,online-FT,Online-FT
+Linda Nelson,Doctor of Dental Surgery (D.D.S.),76,immunology,online-PT,Online-PT
+James Wright,Doctor of Chiropractic (D.C.),58,physiotherapy,campus-FT,Campus-FT
+Donna Harrison,Doctor of Medicine (M.D.),82,immunology,N/A-PT,Campus-PT
+Rachael Greer,Doctor of Pharmacy (Pharm.D.),73,physiotherapy,N/A-FT,Campus-FT
+John Parker,Doctor of Nursing Practice (D.N.P.),100,immunology,online-FT,Online-FT
+Lisa Payne,Doctor of Dental Surgery (D.D.S.),68,surgery,online-FT,Online-FT
+Dr. Henry Frey,Bachelor of Science in Biomedical Science (B.S.),52,None,online-FT,Online-FT
+Jennifer Duncan,Doctor of Osteopathic Medicine (D.O.),83,nursing,campus-N/A,Campus-FT
+Marie Smith,Doctor of Physical Therapy (D.P.T.),91,nutrition,campus-PT,Campus-PT
+Shannon Mccann,Doctor of Medicine (M.D.),53,surgery,campus-N/A,Campus-FT
+Matthew Brown,Master of Public Health (M.P.H.),59,nutrition,online-N/A,Online-FT
+Gregory Sanchez,Master of Health Administration (M.H.A.),72,surgery,online-PT,Online-PT
+Sarah Parker,Doctor of Dental Surgery (D.D.S.),73,None,campus-N/A,Campus-FT
+Katherine Wells,Doctor of Physical Therapy (D.P.T.),71,nursing,N/A-PT,Campus-PT
+Kathleen Johnson,Doctor of Dental Surgery (D.D.S.),84,None,online-FT,Online-FT
+Mary Short MD,Doctor of Physical Therapy (D.P.T.),83,dentistry,N/A-PT,Campus-PT
+Amanda Mueller,Doctor of Optometry (O.D.),65,nursing,campus-FT,Campus-FT
+Connie Gutierrez,Doctor of Chiropractic (D.C.),93,surgery,campus-PT,Campus-PT
+Cody Grimes,Doctor of Veterinary Medicine (D.V.M.),97,immunology,N/A-PT,Campus-PT
+Patricia Davis,Doctor of Osteopathic Medicine (D.O.),74,nursing,online-N/A,Online-FT
+Alyssa Rose,Doctor of Nursing Practice (D.N.P.),69,nutrition,campus-FT,Campus-FT
+Jennifer Odonnell,Doctor of Medicine (M.D.),66,nursing,N/A-PT,Campus-PT
+Joseph Hart,Bachelor of Science in Nursing (B.S.N.),51,nutrition,campus-PT,Campus-PT
+Christine Mcknight,Master of Health Administration (M.H.A.),72,immunology,campus-N/A,Campus-FT
+Olivia Graham,Bachelor of Science in Biomedical Science (B.S.),54,None,online-PT,Online-PT
+Nathan Robbins,Doctor of Dental Surgery (D.D.S.),68,nutrition,N/A-PT,Campus-PT
+Jean Hunter,Doctor of Dental Surgery (D.D.S.),93,dentistry,N/A-FT,Campus-FT
+William Cobb,Doctor of Medicine (M.D.),59,None,N/A-FT,Campus-FT
+Jason Hess,Doctor of Pharmacy (Pharm.D.),63,None,online-FT,Online-FT
+Shannon Powell,Doctor of Medicine (M.D.),50,None,N/A-N/A,Campus-FT
+Julie Jackson,Doctor of Dental Medicine (D.M.D.),55,nursing,online-FT,Online-FT
+Richard Simmons,Doctor of Physical Therapy (D.P.T.),87,None,N/A-PT,Campus-PT
+Joseph Franklin,Doctor of Physical Therapy (D.P.T.),86,physiotherapy,campus-PT,Campus-PT
+Holly Silva,Master of Public Health (M.P.H.),88,immunology,campus-N/A,Campus-FT
+Leah Ellis,Bachelor of Science in Nursing (B.S.N.),77,nursing,online-FT,Online-FT
+Jennifer Ritter,Master of Public Health (M.P.H.),71,dentistry,N/A-PT,Campus-PT
+Penny Mcconnell,Bachelor of Science in Biomedical Science (B.S.),72,nutrition,N/A-FT,Campus-FT
+Scott Smith,Doctor of Pharmacy (Pharm.D.),51,None,campus-FT,Campus-FT
+David Perez,Bachelor of Science in Nursing (B.S.N.),85,dentistry,online-N/A,Online-FT
+Amy Ware,Bachelor of Science in Nursing (B.S.N.),51,dentistry,N/A-PT,Campus-PT
+Michael Deleon,Doctor of Dental Surgery (D.D.S.),68,nutrition,online-N/A,Online-FT
+Makayla Hayes,Doctor of Nursing Practice (D.N.P.),53,surgery,N/A-PT,Campus-PT
+Chad Brown,Master of Health Administration (M.H.A.),100,nursing,online-PT,Online-PT
+Janet Ingram,Doctor of Physical Therapy (D.P.T.),75,dentistry,campus-FT,Campus-FT
+Alan Carrillo,Bachelor of Science in Biomedical Science (B.S.),92,nutrition,N/A-PT,Campus-PT
+Amy Henry,Bachelor of Science in Biomedical Science (B.S.),72,physiotherapy,N/A-N/A,Campus-FT
+John Johnson,Doctor of Physical Therapy (D.P.T.),62,nursing,online-PT,Online-PT
+Cory Salazar,Doctor of Dental Medicine (D.M.D.),60,immunology,campus-FT,Campus-FT
+Kristen Walker,Doctor of Pharmacy (Pharm.D.),71,dentistry,N/A-PT,Campus-PT
+Chris Collins,Bachelor of Science in Biomedical Science (B.S.),63,nursing,N/A-PT,Campus-PT
+Yvonne Salinas,Master of Health Administration (M.H.A.),90,nutrition,campus-PT,Campus-PT
+Timothy Brown,Doctor of Podiatric Medicine (D.P.M.),79,immunology,N/A-FT,Campus-FT
+Kyle Clark,Doctor of Veterinary Medicine (D.V.M.),61,dentistry,online-FT,Online-FT
+Deborah Clark,Doctor of Podiatric Medicine (D.P.M.),70,nutrition,online-N/A,Online-FT
+Robert Perez,Bachelor of Science in Nursing (B.S.N.),50,nursing,campus-N/A,Campus-FT
+Joshua Douglas,Doctor of Physical Therapy (D.P.T.),78,immunology,campus-FT,Campus-FT
+David Garcia,Doctor of Podiatric Medicine (D.P.M.),99,None,campus-FT,Campus-FT
+Eduardo Hall,Doctor of Dental Surgery (D.D.S.),65,None,N/A-FT,Campus-FT
+Mark Bray,Doctor of Chiropractic (D.C.),52,nursing,N/A-FT,Campus-FT
+Craig Jones,Bachelor of Science in Biomedical Science (B.S.),73,physiotherapy,online-FT,Online-FT
+Mark Jimenez,Doctor of Osteopathic Medicine (D.O.),56,physiotherapy,online-FT,Online-FT
+Anita Jones,Doctor of Medicine (M.D.),74,immunology,campus-FT,Campus-FT
+Austin Snyder,Doctor of Chiropractic (D.C.),77,nutrition,N/A-N/A,Campus-FT
+Travis Murphy,Doctor of Osteopathic Medicine (D.O.),93,nutrition,campus-FT,Campus-FT
+Erin Wilson,Doctor of Nursing Practice (D.N.P.),67,surgery,N/A-N/A,Campus-FT
+Jessica Miller,Doctor of Dental Surgery (D.D.S.),92,None,online-N/A,Online-FT
+Emily Sanders,Doctor of Osteopathic Medicine (D.O.),69,physiotherapy,online-N/A,Online-FT
+Matthew Santiago,Doctor of Pharmacy (Pharm.D.),92,surgery,online-FT,Online-FT
+Michael Moore,Master of Health Administration (M.H.A.),99,immunology,online-FT,Online-FT
+Robert White,Master of Health Administration (M.H.A.),86,surgery,N/A-PT,Campus-PT
+Donald Myers,Bachelor of Science in Nursing (B.S.N.),56,dentistry,online-FT,Online-FT
+Carla Turner,Doctor of Chiropractic (D.C.),53,physiotherapy,N/A-FT,Campus-FT
+Michael Hall,Doctor of Pharmacy (Pharm.D.),92,None,online-FT,Online-FT
+Kent Garcia,Bachelor of Science in Nursing (B.S.N.),51,physiotherapy,online-FT,Online-FT
+Sheila Reed,Doctor of Osteopathic Medicine (D.O.),60,physiotherapy,N/A-N/A,Campus-FT
+Melissa Cole,Doctor of Nursing Practice (D.N.P.),66,physiotherapy,N/A-N/A,Campus-FT
+Johnathan Fry,Master of Health Administration (M.H.A.),92,nutrition,campus-PT,Campus-PT
+Gregory Norton,Master of Public Health (M.P.H.),86,nutrition,N/A-PT,Campus-PT
+Jeanne Chandler,Doctor of Nursing Practice (D.N.P.),78,surgery,N/A-PT,Campus-PT
+Cassandra Cox,Doctor of Osteopathic Medicine (D.O.),94,immunology,online-N/A,Online-FT
+Tammy Ochoa,Doctor of Dental Surgery (D.D.S.),69,immunology,online-N/A,Online-FT
+Donna Hall,Doctor of Pharmacy (Pharm.D.),72,physiotherapy,campus-PT,Campus-PT
+Laura Baxter,Doctor of Pharmacy (Pharm.D.),71,nursing,campus-FT,Campus-FT
+Charles Hughes,Doctor of Osteopathic Medicine (D.O.),92,physiotherapy,N/A-N/A,Campus-FT
+Jessica White,Master of Health Administration (M.H.A.),86,None,N/A-FT,Campus-FT
+Drew Brown,Bachelor of Science in Biomedical Science (B.S.),73,immunology,online-N/A,Online-FT

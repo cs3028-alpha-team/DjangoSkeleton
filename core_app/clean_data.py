@@ -66,9 +66,11 @@ def process_data():
     jobs['MinScore'] = jobs['MinScore'].apply(round_to_closest)
     print(jobs.head())
 
+# TO BE DELETED LATER-- BELOW
+
     # Save the processed dataframes to CSV files
-    jobs.to_csv('processed_jobs.csv', index=False)
-    candidates.to_csv('processed_candidates.csv', index=False)
+    #jobs.to_csv('processed_jobs.csv', index=False)
+    #candidates.to_csv('processed_candidates.csv', index=False)
 
     print("Processed data saved to 'processed_jobs.csv' and 'processed_candidates.csv'")
 
