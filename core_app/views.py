@@ -2,8 +2,12 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
+
+from django.core.mail import send_mail
+from django.conf import settings
 from .matching_util_functions import *
 from .gayle_shapley import run_gale_shapley
+
 import subprocess
 import csv
 import os
@@ -123,4 +127,19 @@ def run_matching_algorithm(request):
     output_file = 'data/offers.csv'
     save_results_to_csv(formatted_pairings, output_file)
     return HttpResponse('Matching algorithm executed successfully. Results saved to CSV file.')
+
+#function to send an email
+def send_email(request): 
+    subject = "Successful application match"
+    message = """Hello [STUDENT NAME],\t
+                You have been successfully matched with [COMPANY NAME].
+                Please contact [COMPANY EMAIL] to arrange an interview."""
+    
+    send_mail(
+        subject, #subject
+        message, #message
+        settings.EMAIL_HOST_USER, #from email display name
+        ['basoce4351@tospage.com'], #recipient's email      
+    )
+    return HttpResponse('Email sent')
 
