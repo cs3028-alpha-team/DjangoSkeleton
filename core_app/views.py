@@ -3,6 +3,9 @@ from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
 
+from .forms import InternshipForm, StudentForm
+
+
 from django.core.mail import send_mail
 from django.conf import settings
 from .matching_util_functions import *
@@ -33,6 +36,7 @@ def log_admin(request):
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
     if request.method == 'POST':
+        form = StudentForm(request.POST)
         fullname = request.POST.get('Fullname', '')
         course = request.POST.get('Course', '')
         score = request.POST.get('Score', '')
@@ -56,6 +60,7 @@ def submit_student(request):
 #Function to get user input and populate the jobs csv in the data folder
 def submit_internship(request):
     if request.method == 'POST':
+        form = InternshipForm(request.POST)
         title = request.POST.get('Title', '')
         company = request.POST.get('Company', '')
         field = request.POST.get('Field', '')
