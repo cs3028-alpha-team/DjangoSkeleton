@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from .clean_data import process_data
 from .matching import *
 from .algorithm import run_gale_shapley
+from .forms import InternshipForm, StudentForm
 import subprocess
 import csv
 import os
@@ -29,6 +30,7 @@ def log_admin(request):
 #Function to get user input and populate the candidates csv in the data folder
 def submit_student(request):
     if request.method == 'POST':
+        form = StudentForm(request.POST)
         fullname = request.POST.get('Fullname', '')
         course = request.POST.get('Course', '')
         score = request.POST.get('Score', '')
@@ -52,6 +54,7 @@ def submit_student(request):
 #Function to get user input and populate the jobs csv in the data folder
 def submit_internship(request):
     if request.method == 'POST':
+        form = InternshipForm(request.POST)
         title = request.POST.get('Title', '')
         company = request.POST.get('Company', '')
         field = request.POST.get('Field', '')
