@@ -133,11 +133,15 @@ def run_matching_algorithm(request):
     
     return HttpResponse('Matching algorithm executed successfully. Results saved to CSV file.')
 
-def send_email(request):
+#function to send an email
+def send_email(request): 
+    subject = "Successful application match"
+    message = "You have been successfully matched"
+    
     send_mail(
-        'message_name', #subject
-        'message', #message
-        settings.EMAIL_HOST_USER, #from email
-        ['basoce4351@tospage.com'], #to email      
+        subject, #subject
+        message, #message
+        settings.EMAIL_HOST_USER, #from email display name
+        ['basoce4351@tospage.com'], #recipient's email      
     )
     return HttpResponse('Email sent')
