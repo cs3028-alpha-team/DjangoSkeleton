@@ -2,9 +2,15 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
-from .matching import *
-from .algorithm import run_gale_shapley
+
 from .forms import InternshipForm, StudentForm
+
+
+from django.core.mail import send_mail
+from django.conf import settings
+from .matching_util_functions import *
+from .gayle_shapley import run_gale_shapley
+
 import subprocess
 import csv
 import os
@@ -116,20 +122,29 @@ def run_matching_algorithm(request):
     number_of_candidates = len(candidates)
     number_of_jobs = len(jobs)
 
-    # Activate algorithm
     print("Calling Gale-Shapley algorithm...")
     offers = run_gale_shapley(candidates, jobs, number_of_candidates, number_of_jobs)
 
-    # Save file path
-    #output_file = 'data/matching_results.csv'
-    
     print(" ================ offers ========================")
-    format_pairings(offers, candidates, jobs)
-
-    # Save file 
+    formatted_pairings = format_pairings(offers, candidates, jobs)
+   
+    #  save_results_to_csv function is in the matching.py file
     output_file = 'data/offers.csv'
-    save_results_to_csv(offers, output_file)
-    
-    print("Results saved to CSV file.")
-    
+    save_results_to_csv(formatted_pairings, output_file)
     return HttpResponse('Matching algorithm executed successfully. Results saved to CSV file.')
+
+#function to send an email
+def send_email(request): 
+    subject = "Successful application match"
+    message = """Hello [STUDENT NAME],\t
+                You have been successfully matched with [COMPANY NAME].
+                Please contact [COMPANY EMAIL] to arrange an interview."""
+    
+    send_mail(
+        subject, #subject
+        message, #message
+        settings.EMAIL_HOST_USER, #from email display name
+        ['basoce4351@tospage.com'], #recipient's email      
+    )
+    return HttpResponse('Email sent')
+

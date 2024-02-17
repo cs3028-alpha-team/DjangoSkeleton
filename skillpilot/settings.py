@@ -155,3 +155,11 @@ STORAGES = {
 WHITENOISE_KEEP_ONLY_HASHED_FILES = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#email configuration
+EMAIL_BACKEND= 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST= 'smtp.gmail.com'
+EMAIL_PORT=587
+EMAIL_USE_TLS=True
+EMAIL_HOST_USER='YOUREMAIL@gmail.com' 
+EMAIL_HOST_PASSWORD='GO TO GOOGLE ACCOUNT, TURN ON 2FA, GENERATE APP PASSWORD AND PASTE IT HERE'

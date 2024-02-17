@@ -2,7 +2,7 @@ import sys
 import random
 import pandas as pd
 from time import time
-from .matching import compute_compatibility, compute_compatibility_matrix
+from .matching_util_functions import compute_compatibility, compute_compatibility_matrix
 
 # given a list of jobs, return the index of a job with offers to still give out, or -1 if none are found
 def find_job(company_ids):
