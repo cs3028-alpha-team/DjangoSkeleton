@@ -136,7 +136,9 @@ def run_matching_algorithm(request):
 #function to send an email
 def send_email(request): 
     subject = "Successful application match"
-    message = "You have been successfully matched"
+    message = """Hello [STUDENT NAME],\t
+                You have been successfully matched with [COMPANY NAME].
+                Please contact [COMPANY EMAIL] to arrange an interview."""
     
     send_mail(
         subject, #subject
