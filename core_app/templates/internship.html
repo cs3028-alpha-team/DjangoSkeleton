@@ -23,7 +23,7 @@
         </p>
       </div>
 
-      <form method="post" action="{% url 'submit-internship' %}">
+      <form method="post" action="{% url 'submit-student' %}">
         {% csrf_token %}
         <div class="fields2">
           <div class="input">
@@ -73,7 +73,7 @@
             />
             <br /><br />
           </div>
-          <div class="submit2">
+          <div class="submit">
             <input type="submit" value="Complete application" id="submit2" />
             <button onclick="goBack()">Return</button>
 

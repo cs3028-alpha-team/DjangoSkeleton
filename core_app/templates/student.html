@@ -9,7 +9,7 @@
   <body class="SFORM">
     <div class="form2" style="overflow-y: scroll">
       <header>Student Internship Application</header>
-      <form method="post" action="{% url 'submit-student' %}">
+      <form method="post" action="{% url 'submit-internship' %}">
         {% csrf_token %}
         <div class="fields">
           <div class="input">
@@ -68,7 +68,7 @@
             />
             <br /><br />
           </div>
-          <div class="submit">
+          <div class="submit2">
             <input type="submit" value="Complete application" id="submit" />
             <button onclick="goBack()">Return</button>
 
