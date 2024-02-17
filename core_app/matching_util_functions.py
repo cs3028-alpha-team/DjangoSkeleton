@@ -1,6 +1,7 @@
 import sys
 import random
 import pandas as pd
+import csv
 
 # Read CSV files (ADDED)
 candidates = pd.read_csv('data/candidates.csv')
@@ -58,14 +59,26 @@ def compute_compatibility(candidate, job):
 
 # display all the offers made in a user-readable format
 def format_pairings(offers, candidates, jobs):
+    pairings = []
     for i in range(len(offers.keys()) - 1):
         candidate_id = i
         candidate_name = candidates.loc[candidate_id, "Fullname"]
         job_title = "N/A" if offers[candidate_id][0] == None else jobs.loc[offers[candidate_id][0], "Title"]
         print(f'{candidate_name} -> {job_title}')
+        pairing = (candidate_name, job_title)
+        pairings.append(pairing)
+    return pairings
+
+# Save final prodecced ata to the offers csv
+def save_results_to_csv(pairings, path):
+    with open(path, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(['Candidate', 'Job']) 
+        for pairing in pairings:
+            writer.writerow(pairing) 
+    print('Matching algorithm executed successfully. Results saved to CSV file.')
     
 
-def save_results_to_csv(data, path):
+
+
    
-    df = pd.DataFrame(data)
-    df.to_csv(path, index=False)
