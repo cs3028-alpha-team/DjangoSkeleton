@@ -302,7 +302,7 @@ div.form2 header{
     top: 30%;
     left: 50%;
     width: 500px;
-    height: 170px;
+    height: 200px;
     border-radius: 5px;
     padding: 10px 10px 10px 5px;
     box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.2);
@@ -333,11 +333,6 @@ div.Content button {
     font-size: 15px;
 }
 
-
-div.admin button:hover {
-    background-color: rgb(0, 0, 128);
-}
-
 /*end*/
 
 
@@ -366,3 +361,9 @@ textarea:is(:focus){
 input:is(:focus, :valid){
     border-width: none;
 }
+
+div.admin button:hover {
+    background-color: rgb(0, 0, 128);
+}
+
+/*end*/

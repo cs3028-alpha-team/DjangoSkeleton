@@ -2,7 +2,8 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
 from .clean_data import process_data
-
+from django.contrib.auth import authenticate, login, logout
+from django.contrib import messages
 from .forms import InternshipForm, StudentForm
 
 
@@ -14,6 +15,7 @@ from .gayle_shapley import run_gale_shapley
 import subprocess
 import csv
 import os
+
 
 # View for hello.html
 def homepage(request):
@@ -147,4 +149,25 @@ def send_email(request):
         ['basoce4351@tospage.com'], #recipient's email      
     )
     return HttpResponse('Email sent')
+
+def login_user(request):
+    if request.method == "POST":
+        username = request.POST.get('user_name')
+        password = request.POST.get('password')
+        
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)  # correct credentials, log the user in
+            return redirect('sysadmin')  # redirect to sysadmin if login is successful
+
+        # if credentials are incorrect or login fails, display an error message and redirect to the login page
+        messages.error(request, "Invalid username or password")
+        return redirect('logadmin')  
+
+    else:
+        return render(request, 'logadmin.html')
+
+def logout_user(request):
+    logout(request)
+    return redirect('homepage') 
 

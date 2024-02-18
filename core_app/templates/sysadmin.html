@@ -33,6 +33,11 @@
             {% csrf_token %}
             <button type="submit">Run Matching Algorithm</button>
           </form>
+
+          <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Logout</button>
+          </form>
         </div>
       </ul>
     </nav>

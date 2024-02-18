@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,12 +15,20 @@
         height: 100vh;
         background-color: #f0f0f0;
       }
+      .messages {
+        position: absolute;
+        top: 25%;
+        text-align: center;
+        width: 300px;
+        
+      }
       .login-box {
         background-color: #ffffff;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         width: 300px;
+        position: relative; /* Ensure position:relative for correct positioning of absolute elements inside */
       }
       .login-box input[type="text"],
       .login-box input[type="password"],
@@ -44,10 +51,25 @@
     </style>
   </head>
   <body>
+    <div class="messages">
+      {% if messages %} {% for message in messages %}
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>{{ message }}</strong>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      {% endfor %} {% endif %}
+    </div>
     <div class="login-box">
       <h2>Login</h2>
-      <form action="{% url 'sysadmin' %}" method="post">
-            {% csrf_token %}
+      <form action="{% url 'login_user' %}" method="post">
+        {% csrf_token %}
         <input type="text" name="user_name" placeholder="User Name" required />
         <input
           type="password"
@@ -58,5 +80,15 @@
         <input type="submit" value="Login" />
       </form>
     </div>
+    <script>
+      //to handle removing the error message
+      const closeButtons = document.querySelectorAll(".close");
+      closeButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const alert = button.closest(".alert");
+          alert.style.display = "none";
+        });
+      });
+    </script>
   </body>
 </html>
