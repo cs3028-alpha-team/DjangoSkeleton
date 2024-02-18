@@ -1,4 +1,5 @@
 from django.urls import path
+from dashboard import views as dashboard
 from . import views
 
 urlpatterns = [
@@ -12,6 +13,8 @@ urlpatterns = [
     path('sysadmin', views.admin_page, name='sysadmin'),
     path('logadmin', views.log_admin, name ='logadmin'),
     path('run_matching_algorithm', views.run_matching_algorithm, name='run_matching_algorithm'),
-    path('send-email', views.send_email, name="send-email")
+    path('send-email', views.send_email, name="send-email"),
+    path('dashboard/', views.dashboard, name='dashboard'),
+    
 ]
 
