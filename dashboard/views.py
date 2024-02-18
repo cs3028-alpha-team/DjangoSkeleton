@@ -23,6 +23,7 @@ def candidate_histogram(request):
     #read the file
     candidates = pd.read_csv(file_path)
     
+    
     # Define the path for the temporary chart image
     temp_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'histogram_chart.png')
     

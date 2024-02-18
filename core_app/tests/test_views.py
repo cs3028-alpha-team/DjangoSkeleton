@@ -14,13 +14,13 @@ class TestTemplatesContents(TestCase):
     # ensures the internship template contains the internship registration form
     def test_internship_template_contents(self):
         response = self.client.get(reverse('internship'))
-        self.assertContains(response, '<input type="submit" value="Complete application" id="submit2" />')
+        self.assertContains(response, '<input type="submit" value="Complete application" id="submit" />')
         self.assertNotContains(response, "This string should not be in the internship page!")
 
     # ensures the student template contains the student registration form
     def test_student_template_contents(self):
         response = self.client.get(reverse('student'))
-        self.assertContains(response, '<input type="submit" value="Complete application" id="submit" />')
+        self.assertContains(response, '<input type="submit" value="Complete application" id="submit2" />')
         self.assertNotContains(response, "This string should not be in the internship page!")
 
     # ensures the sysadmin template contains the form to trigger gale-shapley algorithm

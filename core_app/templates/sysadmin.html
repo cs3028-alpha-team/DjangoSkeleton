@@ -33,10 +33,18 @@
             {% csrf_token %}
             <button type="submit">Run Matching Algorithm</button>
           </form>
+<<<<<<< HEAD
           <form action="{% url 'dashboard' %}" method="get">
             <button type="submit" class="btn btn-primary">Go to Dashboard</button>
           </form>
         
+=======
+
+          <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit">Logout</button>
+          </form>
+>>>>>>> origin/data_analytics
         </div>
       </ul>
     </nav>
