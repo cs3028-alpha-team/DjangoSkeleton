@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Dashboard</h1>
+    <form action="{% url 'candidate_histogram' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {% if chart_path %}
+            <div id="histogram">
+                <img src="{{ chart_path }}" alt="Histogram">
+            </div>
+        {% else %}
+            <button type="submit">Run Candidate Histogram</button>
+        {% endif %}
+    </form>
+</body>
+</html>
