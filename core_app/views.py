@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from .clean_data import process_data
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
+from .models import Student, Internship
 from .forms import InternshipForm, StudentForm
 
 
@@ -137,6 +138,8 @@ def run_matching_algorithm(request):
 
 #function to send an email
 def send_email(request): 
+    interns = Internships.objects.all()
+    students = Students.objects.students()
     subject = "Successful application match"
     message = """Hello [STUDENT NAME],\t
                 You have been successfully matched with [COMPANY NAME].
