@@ -147,4 +147,3 @@ def send_email(request):
         ['basoce4351@tospage.com'], #recipient's email      
     )
     return HttpResponse('Email sent')
-
