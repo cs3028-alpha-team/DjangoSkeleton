@@ -8,7 +8,9 @@ from .models import Student, Internship
 from .forms import InternshipForm, StudentForm
 
 
-from django.core.mail import send_mail
+from django.core.mail import send_mail, EmailMultiAlternatives
+from django.template.loader import render_to_string
+from django.utils.html import strip_tags
 from django.conf import settings
 from .matching_util_functions import *
 from .gayle_shapley import run_gale_shapley
@@ -138,19 +140,28 @@ def run_matching_algorithm(request):
 
 #function to send an email
 def send_email(request): 
-    interns = Internships.objects.all()
-    students = Students.objects.students()
+    internships = Internship.objects.all() #get data from database
+    students = Student.objects.all()
+        
     subject = "Successful application match"
-    message = """Hello [STUDENT NAME],\t
-                You have been successfully matched with [COMPANY NAME].
-                Please contact [COMPANY EMAIL] to arrange an interview."""
-    
-    send_mail(
-        subject, #subject
-        message, #message
-        settings.EMAIL_HOST_USER, #from email display name
-        ['basoce4351@tospage.com'], #recipient's email      
-    )
+
+    for intern in internships:
+        name = intern.organisation
+        context = {'name': name}
+        
+        html_message = render_to_string('email.html', context)
+        text_message = strip_tags(html_message)
+        
+        mail = EmailMultiAlternatives(
+                    subject = subject, #subject
+                    body = text_message, #plain text version of message
+                    from_email = settings.EMAIL_HOST_USER, #from email display name
+                    to = [intern.email_address] #recipient's email      
+                )
+        
+        mail.attach_alternative(html_message, 'text/html')
+        mail.send()
+        
     return HttpResponse('Email sent')
 
 def login_user(request):
