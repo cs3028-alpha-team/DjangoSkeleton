@@ -58,13 +58,17 @@ def compute_compatibility(candidate, job):
     return round(compatibility_score, 2)
 
 # display all the offers made in a user-readable format
-def format_pairings(offers, candidates, jobs):
+def format_pairings(offers, candidates, jobs, display=False):
     pairings = []
     for i in range(len(offers.keys()) - 1):
         candidate_id = i
         candidate_name = candidates.loc[candidate_id, "Fullname"]
         job_title = "N/A" if offers[candidate_id][0] == None else jobs.loc[offers[candidate_id][0], "Title"]
-        print(f'{candidate_name} -> {job_title}')
+
+        # display parameter default to False
+        if display:
+            print(f'{candidate_name} -> {job_title}')
+
         pairing = (candidate_name, job_title)
         pairings.append(pairing)
     return pairings

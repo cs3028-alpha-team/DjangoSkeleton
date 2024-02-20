@@ -131,6 +131,7 @@ def run_matching_algorithm(request):
     print("Calling Gale-Shapley algorithm...")
     offers = run_gale_shapley(candidates, jobs, number_of_candidates, number_of_jobs)
     
+    
     print(" ================ offers ========================")
     formatted_pairings = format_pairings(offers, candidates, jobs)
    

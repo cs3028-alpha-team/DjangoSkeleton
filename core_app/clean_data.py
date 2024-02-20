@@ -50,7 +50,7 @@ def process_data():
     print(candidates.head())
 
     # Your round_to_closest function
-    def round_to_closest(x):
+    def round_to_closest(x=60): # default score if not provided is the passing score, i.e. 60%
         # extract the unitary digit
         unitary = int(x) % 10
             
