@@ -6,12 +6,15 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .models import Student, Internship
 from .forms import InternshipForm, StudentForm
+from django.views.generic.list import ListView
+from django.views.generic import DetailView
 
 
 from django.core.mail import send_mail, EmailMultiAlternatives
 from django.template.loader import render_to_string
 from django.utils.html import strip_tags
 from django.conf import settings
+from django.db.models import Q
 from .matching_util_functions import *
 from .gayle_shapley import run_gale_shapley
 
@@ -185,3 +188,24 @@ def logout_user(request):
     logout(request)
     return redirect('homepage') 
 
+#search bar functionality
+class SearchView(ListView):
+    model = Internship #search the internship table
+    template_name = 'search_base.html'
+    context_object_name = 'all_search_results'
+
+    def get_queryset(self): #search query function
+        query = self.request.GET.get('search')
+        if query is not None:
+            object_list = Internship.objects.filter(
+                Q(organisation__icontains=query) | Q(job_role__icontains=query) #search the organisation and job role
+            )
+        else:
+            object_list = Internship.objects.all()  #if there is no query that display all options
+        
+        return object_list
+
+class InternshipDetailView(DetailView):
+    model = Internship
+    template_name = 'search_detail.html'
+    context_object_name = 'internship'

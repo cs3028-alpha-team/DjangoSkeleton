@@ -15,5 +15,9 @@ urlpatterns = [
     path('send-email', views.send_email, name="send-email"),
     path('login_user', views.login_user, name = "login_user"),
     path('logout', views.logout_user, name='logout'),
+    path('search', views.SearchView.as_view(), name='search'),
+    path('details/<int:pk>/', views.InternshipDetailView.as_view(), name='details'),
+
+
 ]
 

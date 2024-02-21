@@ -1,0 +1,14 @@
+{% extends 'search_base.html' %}
+
+{% block body_block %}
+
+<h1>Internship Details</h1>
+{% if internship %}
+    <h2>{{ internship.organisation }}</h2>
+    <p>Job Role: {{ internship.job_role }}</p>
+    <p>Email address: {{ internship.email_address }}</p>
+{% else %}
+    <p>No internship details found.</p>
+{% endif %}
+
+{% endblock %}
