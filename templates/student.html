@@ -1,0 +1,86 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}" />
+    <title>Student Internship Form</title>
+  </head>
+  <body class="SFORM">
+    <div class="form2" style="overflow-y: scroll">
+      <header>Student Internship Application</header>
+      <form method="post" action="{% url 'submit-student' %}">
+        {% csrf_token %}
+        <div class="fields">
+          <div class="input">
+            <label for="Fullname">1. Fullname<span>*</span></label>
+            <input
+              type="text"
+              name="Fullname"
+              id="Fullname"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+            <label for="Course">2. Course<span>*</span></label>
+            <input
+              type="text"
+              name="Course"
+              id="Course"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+            <label for="Score">3. Score<span>*</span></label>
+            <input
+              type="number"
+              name="Score"
+              id="Score"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+            <label for="Experience">4. Experience<span>*</span></label>
+            <input
+              type="text"
+              name="Experience"
+              id="Experience"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+            <label for="StudyMode">5. Study Mode<span>*</span></label>
+            <input
+              type="text"
+              name="StudyMode"
+              id="StudyMode"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+            <label for="StudyPattern">6. Study Pattern<span>*</span></label>
+            <input
+              type="text"
+              name="StudyPattern"
+              id="StudyPattern"
+              placeholder="Enter your answer"
+              required
+            />
+            <br /><br />
+          </div>
+          <div class="submit2">
+            <input type="submit" value="Complete application" id="submit2" />
+            <button onclick="goBack()">Return</button>
+
+            <script>
+              function goBack() {
+                window.history.back();
+              }
+            </script>
+            <br />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

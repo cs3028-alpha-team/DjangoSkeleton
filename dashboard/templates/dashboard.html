@@ -7,13 +7,30 @@
     <h1>Dashboard</h1>
     <form action="{% url 'candidate_histogram' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
+        <button type="submit">Run Candidate Histogram</button>
+    </form>
+
+    <div id="histogram">
         {% if chart_path %}
-            <div id="histogram">
-                <img src="{{ chart_path }}" alt="Histogram">
-            </div>
-        {% else %}
-            <button type="submit">Run Candidate Histogram</button>
+            <img src="{{ chart_path }}" alt="Histogram">
         {% endif %}
+    </div>
+
+
+    <form action="{% url 'course_count_call' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <button type="submit">Run Course Count</button>
+    </form>
+
+    <form action="{% url 'job_min_score_count_call' %}" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <button type="submit">Run Job Min Score Count</button>
+    </form>
+
+
+    <form action="{% url 'generate_plot' %}" method="post">
+        {% csrf_token %}
+        <input type="submit" value="Generate Plot">
     </form>
 </body>
 </html>

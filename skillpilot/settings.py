@@ -164,3 +164,8 @@ EMAIL_PORT=587
 EMAIL_USE_TLS=True
 EMAIL_HOST_USER='YOUREMAIL@gmail.com' 
 EMAIL_HOST_PASSWORD='GO TO GOOGLE ACCOUNT, TURN ON 2FA, GENERATE APP PASSWORD AND PASTE IT HERE'
+
+
+# Setting to assist with loading the png files from the data folder to the html
+MEDIA_URL = '/data/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'data')
