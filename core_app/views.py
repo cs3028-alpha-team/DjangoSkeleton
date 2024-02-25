@@ -5,8 +5,8 @@ from .clean_data import process_data
 from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 from .forms import InternshipForm, StudentForm
-
-
+from django.contrib.auth.decorators import login_required
+from django.urls import reverse
 from django.core.mail import send_mail
 from django.conf import settings
 from .matching_util_functions import *
@@ -29,6 +29,7 @@ def internship(request):
 def student(request):
     return render(request, 'student.html')
 
+@login_required
 def admin_page(request):
     return render(request, 'sysadmin.html')
 
@@ -157,18 +158,24 @@ def login_user(request):
     if request.method == "POST":
         username = request.POST.get('user_name')
         password = request.POST.get('password')
-        
+        next_url = request.GET.get('next')  # get the 'next' parameter from the URL
+
         user = authenticate(request, username=username, password=password)
         if user is not None:
-            login(request, user)  # correct credentials, log the user in
-            return redirect('sysadmin')  # redirect to sysadmin if login is successful
-
-        # if credentials are incorrect or login fails, display an error message and redirect to the login page
-        messages.error(request, "Invalid username or password")
-        return redirect('logadmin')  
+            login(request, user)
+            if next_url:  #if 'next' parameter exists, redirect to that URL
+                return HttpResponseRedirect(next_url)
+            else:  # redirect to a default URL
+                return render(request, 'sysadmin.html')
+        else:
+            messages.error(request, "Invalid username or password")
+            return render(request, 'logadmin.html')
 
     else:
+        # render the login form for GET requests
         return render(request, 'logadmin.html')
+
+    
 
 def logout_user(request):
     logout(request)

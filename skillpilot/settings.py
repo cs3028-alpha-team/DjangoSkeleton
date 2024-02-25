@@ -169,3 +169,6 @@ EMAIL_HOST_PASSWORD='GO TO GOOGLE ACCOUNT, TURN ON 2FA, GENERATE APP PASSWORD AN
 # Setting to assist with loading the png files from the data folder to the html
 MEDIA_URL = '/data/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'data')
+
+# URL to redirect to when the authentication is required
+LOGIN_URL = '/logadmin/'

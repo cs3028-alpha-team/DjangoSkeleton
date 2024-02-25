@@ -1,32 +1,31 @@
 {% load static %}
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{% static 'css/styles.css' %}" />
     <title>Student Internship Form</title>
   </head>
   <body class="IFORM">
-    <div class="form1" style="overflow-y: scroll">
-      <div class="top">
-        <header class="form1H">
-          University of Aberdeen: Work-based Placements/Learning in Applied
-          Health Sciences 2024
-        </header>
+    <div class="form-container-IFORM">
+      <header>University of Aberdeen: Work-based Placements/Learning</header>
 
+      <div class="top-IFORM">
         <p>
           The survey will take approximately 9 minutes to complete. Many thanks
           for your interest in hosting a Work-based Placement or Work-Based
           Learning Experience for our Masters students in 2024. Please complete
           the form below for each placement opportunity to enable us to take
           plans forward and identify student matches. Thank you in advance and
-          we look forward to supporting your organisation.
+          we look forward to supporting your organization.
         </p>
       </div>
-
+      <br>
       <form method="post" action="{% url 'submit-internship' %}">
         {% csrf_token %}
-        <div class="fields2">
-          <div class="input">
+        <div class="fields-IFORM">
+          <div class="input-IFORM">
             <label for="Title">Title<span>*</span></label>
             <input
               type="text"
@@ -71,21 +70,20 @@
               placeholder="Enter positions"
               required
             />
-            <br /><br />
           </div>
-          <div class="submit">
-            <input type="submit" value="Complete application" id="submit" />
-            <button onclick="goBack()">Return</button>
-
-            <script>
-              function goBack() {
-                window.history.back();
-              }
-            </script>
-          </div>
-          <br />
+        </div>
+        <br>
+        <div class="submit-IFORM">
+          <input type="submit" value="Complete application" id="submit" />
+          <button onclick="goBack()">Return</button>
         </div>
       </form>
     </div>
+
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
   </body>
 </html>
