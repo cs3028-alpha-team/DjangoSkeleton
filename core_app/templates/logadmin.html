@@ -13,14 +13,40 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #f0f0f0;
+        background-image: url("../static/images/login.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
       }
       .messages {
-        position: absolute;
+        position: fixed;
         top: 25%;
         text-align: center;
         width: 300px;
-        
+        padding: 10px;
+        border-radius: 5px;
+      }
+      .alert {
+        background-color: rgba(0, 123, 255, 0.7); 
+        color: #ffffff; 
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .alert .close {
+        position: absolute;
+        top: 3px;
+        right: 7px;
+        color: #ffffff; 
+        font-size: 35px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        outline: none;
+      }
+      .alert .close:hover {
+        color: #ff0000; 
       }
       .login-box {
         background-color: #ffffff;
@@ -28,7 +54,7 @@
         border-radius: 8px;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         width: 300px;
-        position: relative; /* Ensure position:relative for correct positioning of absolute elements inside */
+        position: relative;
       }
       .login-box input[type="text"],
       .login-box input[type="password"],

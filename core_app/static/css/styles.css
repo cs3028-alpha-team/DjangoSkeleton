@@ -59,8 +59,9 @@ body.page1 {
 }
 
 header img.smallimg{
-    position: absolute;
+    position: fixed;
     top: 20%;
+    border-radius: 30px;
     width: 270px;
     left: 10%;
 }
@@ -70,11 +71,13 @@ header img.smallimg{
 }
 .topList h2{
     margin: 8px;
+    margin-bottom: -10px;
     text-align: center;
 }
 
 .topList{
     color: black;
+    
 }
 .rb{
     margin-top: -12px;
@@ -85,13 +88,13 @@ header img.smallimg{
 
 .page1 nav{
     background-color: white;
-    position: absolute;
+    position: fixed;
     top: 20%;
-    left: 55%;
+    right: 10%;
     width: 500px;
-    height: 260px;
+    height: 250px;
     border-radius: 5px;
-    padding: 10px 30px 20px 5px;
+    padding: 10px 15px 10px 10px;
     box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
     max-height: 680px;
 }
@@ -102,7 +105,7 @@ div.Content li {
     border-radius: 2px;
     background-color: rgb(17, 17, 80);
     margin: 5px;
-    padding: 7px;
+    padding: 7px
 
 }
 nav li a{
@@ -118,13 +121,13 @@ nav li a{
     background-color: white;
     width: 10px;
     color: black;
-    position: absolute;
+    position: fixed;
     top: 75%;
-    left: 55%;
+    right: 10%;
     width: 500px;
     height: 100px;
     border-radius: 5px;
-    padding: 10px 30px 20px 5px;
+    padding: 10px 15px 10px 10px;
     box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
     max-height: 680px;
 }
@@ -149,126 +152,167 @@ div.admin h2{
     text-align: center;
 }
 
+/* For screens with a width less than or equal to 990px */
+@media only screen and (max-width: 990px) {
+    /* Hide the small image */
+    header img.smallimg {
+      display: none;
+    }
+  
+    /* Center the navigation bar */
+    .page1 nav {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%; /* Adjust width as needed */
+      max-width: 500px; /* Limit the maximum width */
+    }
+  
+    /* Center the admin section */
+    .admin {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%; /* Adjust width as needed */
+      max-width: 500px; /* Limit the maximum width */
+    }
+  }
+  
+
 /*end*/
 
 /*Iform */
-
 body.IFORM {
-    background-image: url("../images/study-at-aberdeen.jpg");
-    background-attachment: fixed;/* Use 'cover' for background-size to ensure it covers the entire element */
+    background-image: url("../images/formB2.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-div.top{
-    text-align: center;
-    padding: 1px;
-    margin-bottom: -20px;
+    background-size: cover;
 }
 
-header.form1H{
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 15px;
-    text-align: center;
-
-}
-
-.submit{
-    text-align: center;
-    margin-bottom: -40px;
-}
-
-p1{
-    color: grey;
-    font-size: 15px;
-    margin-left: 28px;
-    display: inline-block;
-}
-.fields{
-    max-height: 600px;
-}
-
-div.other textarea{
-    vertical-align:top;
-}
-
-div.margT{
-    margin-top: 10px;
-}
-
-#degrees option{
-    background-color: rgba(255,255,255,0.5);
-}
-
-.form1{
+.form-container-IFORM {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:  rgba(255,255,255,0.5);
-    width: 570px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 560px;
     border-radius: 5px;
-    padding: 10px 30px 20px 5px;
-    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
-    max-height: 680px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.form1 form{
-    margin: 30px 0;
+.form-container-IFORM header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.fields-IFORM {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-IFORM {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.input-IFORM label {
+    display: block;
+   
+}
+
+.input-IFORM input {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: -15px; 
+    padding:15px;
+    height: 40px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-IFORM {
+    text-align: center;
+}
+
+.submit-IFORM input[type="submit"],
+.submit-IFORM button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 5x;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Adjust this value for spacing */
 }
 
 /*end*/
 
 /*form2*/
-
 body.SFORM {
-    background-image: url("../images/study-at-aberdeen.jpg");
-    background-attachment: fixed;/* Use 'cover' for background-size to ensure it covers the entire element */
+    background-image: url("../images/formB2.png");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
 }
 
-div.form2 header{
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 15px;
-}
-
-.form2{
+.form-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background:  rgba(255,255,255,0.5);
-    width: 570px;
+    background: rgba(255, 255, 255, 0.9);
+    width: 560px;
     border-radius: 5px;
-    padding: 10px 30px 20px 5px;
-    box-shadow: 0px 5px 20px 10px rgba(0,0,0,0.2);
-    max-height: 680px;
+    padding: 30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.submit2{
+.form-container header {
     text-align: center;
-    text-decoration: none;
-    color: black;
-    margin-bottom: -50px;
-    font-size: 15px;
-    
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
-.fields2{
-    max-height: 600px;
-}
-.form2 form{
-    margin: 30px 0;
+.fields {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#degrees{
+.input {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.input input {
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-bottom: -5px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input[type="submit"],
+.submit button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
     cursor: pointer;
-    background-color:  rgba(255,255,255,0.5);
-    width: 500px;
-
+    margin-bottom: 5x;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Adjust this value for spacing */
 }
 
 /*admin page*/
@@ -302,7 +346,7 @@ div.form2 header{
     top: 30%;
     left: 50%;
     width: 500px;
-    height: 200px;
+    height: 230px;
     border-radius: 5px;
     padding: 10px 10px 10px 5px;
     box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.2);
@@ -366,4 +410,30 @@ div.admin button:hover {
     background-color: rgb(0, 0, 128);
 }
 
+.submit-IFORM input[type="submit"]:hover,
+.submit-IFORM button:hover {
+    background-color: #0056b3;
+}
+
+.input-IFORM input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #000; /* Black border color */
+    box-shadow: 0 0 0 3px rgba(128, 189, 255, 0.3); /* Light blue low-opacity border */
+}
+
+/* SFORM*/
+
+.submit input[type="submit"]:hover,
+.submit button:hover {
+    background-color: #0056b3;
+}
+
+.input input:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #000; /* Black border color */
+    box-shadow: 0 0 0 3px rgba(128, 189, 255, 0.3); /* Light blue low-opacity border */
+}
+
+
 /*end*/
+
