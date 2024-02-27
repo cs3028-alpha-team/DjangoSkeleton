@@ -2,7 +2,7 @@ from django.test import TestCase, Client
 from django.urls import reverse
 from ..models import Student, Internship
 from ..forms import StudentForm, InternshipForm
-import json 
+import json  
 
 class TestViews(TestCase):
     

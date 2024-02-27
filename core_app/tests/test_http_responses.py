@@ -1,7 +1,7 @@
 from django.test import TestCase
 
 # test the HTTP response for each route registered in core_app's URLS
-class TestHTTP(TestCase):
+class TestHTTP(TestCase): 
 
     # homepage tests
     def test_homepage_request(self):
@@ -43,7 +43,27 @@ class TestHTTP(TestCase):
     def test_galeshapley_request(self):
         response = self.client.get('/run_matching_algorithm')
         self.assertEqual(response.status_code, 200)
-
+        
+    def test_login_admin_request(self):
+        response = self.client.get('/logadmin/')
+        self.assertEqual(response.status_code, 200)  
+             
+    def test_email_request(self):
+        response = self.client.get('/send-email')
+        self.assertEqual(response.status_code, 200)  
+        
+    def test_login_page_request(self):
+        response = self.client.get('/login_user')
+        self.assertEqual(response.status_code, 200)  
+    
+    def test_logout_page_request(self):
+        response = self.client.get('/logout')
+        self.assertEqual(response.status_code, 200)
+        
+    def test_dashboard_request(self):
+        response = self.client.get('/dashboard/')
+        self.assertEqual(response.status_code, 200)    
+          
     # edge cases
     def test_pagenotfound_status_code(self):
         response = self.client.get('/this-page-doesnt-exist')

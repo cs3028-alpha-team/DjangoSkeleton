@@ -32,4 +32,28 @@ class TestURLs(SimpleTestCase):
 
     def test_sysadmin_url(self):
         url = reverse('sysadmin')
-        self.assertEquals(resolve(url).func, admin_page)
+        self.assertEquals(resolve(url).func, admin_page) 
+        
+    def test_logadmin_url(self):
+        url = reverse('logadmin')
+        self.assertEquals(resolve(url).func, log_admin)    
+        
+    def test_run_matching_algorithm_url(self):
+        url = reverse('run_matching_algorithm')
+        self.assertEquals(resolve(url).func, run_matching_algorithm)  
+    
+    def test_send_email_url(self):
+        url = reverse('send-email')
+        self.assertEquals(resolve(url).func, send_email) 
+    
+    def test_login_user_url(self):
+            url = reverse('login_user')
+            self.assertEquals(resolve(url).func, login_user) 
+    
+    def test_logout_url(self):
+        url = reverse('logout')
+        self.assertEquals(resolve(url).func, logout_user) 
+
+    def test_dashboard_url(self):
+        url = reverse('dashboard')
+        self.assertEquals(resolve(url).func, dashboard)        
