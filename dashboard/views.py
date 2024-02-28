@@ -28,8 +28,14 @@ def candidate_histogram(request):
     # Save the chart image
     chart.figure.savefig(image_path)
     
-    # Return the path to the saved image
-    return render(request, 'dashboard.html', {'chart_path': image_path})
+    if request.method == 'POST':
+        active_tab = request.POST.get('active_tab', 'candidate_histogram')
+    else:
+        # Set the default value if the form is not submitted
+        active_tab = 'candidate_histogram'
+
+    # Return the path to the saved image with active_tab set
+    return render(request, 'dashboard.html', {'chart_path': image_path, 'active_tab': active_tab})
 
 
 
@@ -53,8 +59,19 @@ def course_count_call(request):
     chart = course_count(candidates)
     chart.figure.savefig(temp_file)
     
-    # Render the template with the path to the chart image
-    return render(request, 'dashboard.html', {'chart_path': temp_file})
+    # Check if the form is submitted
+    if request.method == 'POST':
+        active_tab = request.POST.get('active_tab', 'course_count')
+    else:
+        # Set the default value if the form is not submitted
+        active_tab = 'course_count'
+
+    # Return the path to the saved image with active_tab set
+    return render(request, 'dashboard.html', {'chart_path': temp_file, 'active_tab': active_tab})
+
+
+    
+
 
 
 
@@ -71,7 +88,15 @@ def job_min_score_count_call(request):
     chart = job_min_score_count(jobs)
     chart.figure.savefig(temp_file)
     
-    return render(request, 'dashboard.html', {'chart_path': temp_file})
+    # Check if the form is submitted
+    if request.method == 'POST':
+        active_tab = request.POST.get('active_tab', 'job_min_score_count')
+    else:
+        # Set the default value if the form is not submitted
+        active_tab = 'job_min_score_count'
+
+    # Return the path to the saved image with active_tab set
+    return render(request, 'dashboard.html', {'chart_path': temp_file, 'active_tab': active_tab})
 
 
 
